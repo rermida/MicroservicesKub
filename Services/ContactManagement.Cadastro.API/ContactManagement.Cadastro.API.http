@@ -1,0 +1,6 @@
+@ContactManagement.Cadastro.API_HostAddress = http://localhost:5130
+
+GET {{ContactManagement.Cadastro.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

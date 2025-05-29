@@ -1,0 +1,6 @@
+@ContactManagement.Exclusao.API_HostAddress = http://localhost:5202
+
+GET {{ContactManagement.Exclusao.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

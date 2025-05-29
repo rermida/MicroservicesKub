@@ -1,0 +1,302 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Atualizacao.Tests\\ContactManagement.Atualizacao.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Atualizacao.API\\ContactManagement.Atualizacao.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Atualizacao.API\\ContactManagement.Atualizacao.API.csproj",
+        "projectName": "ContactManagement.Atualizacao.API",
+        "projectPath": "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Atualizacao.API\\ContactManagement.Atualizacao.API.csproj",
+        "packagesPath": "C:\\Users\\renan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Atualizacao.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\renan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Domain\\ContactManagement.Domain.csproj": {
+                "projectPath": "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Domain\\ContactManagement.Domain.csproj"
+              },
+              "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Messages\\ContactManagement.Messages.csproj": {
+                "projectPath": "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Messages\\ContactManagement.Messages.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MassTransit": {
+              "target": "Package",
+              "version": "[8.4.1, )"
+            },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[8.4.1, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Atualizacao.Tests\\ContactManagement.Atualizacao.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Atualizacao.Tests\\ContactManagement.Atualizacao.Tests.csproj",
+        "projectName": "ContactManagement.Atualizacao.Tests",
+        "projectPath": "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Atualizacao.Tests\\ContactManagement.Atualizacao.Tests.csproj",
+        "packagesPath": "C:\\Users\\renan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Atualizacao.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\renan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Atualizacao.API\\ContactManagement.Atualizacao.API.csproj": {
+                "projectPath": "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Atualizacao.API\\ContactManagement.Atualizacao.API.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.72, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.5.3, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.5.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Domain\\ContactManagement.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Domain\\ContactManagement.Domain.csproj",
+        "projectName": "ContactManagement.Domain",
+        "projectPath": "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Domain\\ContactManagement.Domain.csproj",
+        "packagesPath": "C:\\Users\\renan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\renan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Messages\\ContactManagement.Messages.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Messages\\ContactManagement.Messages.csproj",
+        "projectName": "ContactManagement.Messages",
+        "projectPath": "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Messages\\ContactManagement.Messages.csproj",
+        "packagesPath": "C:\\Users\\renan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Messages\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\renan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Domain\\ContactManagement.Domain.csproj": {
+                "projectPath": "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Domain\\ContactManagement.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

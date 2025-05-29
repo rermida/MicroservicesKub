@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{A919DDC9-E6DB-48EF-A583-B37D202AAEBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactManagement.Cadastro.API", "Services\ContactManagement.Cadastro.API\ContactManagement.Cadastro.API.csproj", "{01A2F861-6B1F-4979-AD5E-346774DB3F90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactManagement.Consulta.API", "Services\ContactManagement.Consulta.API\ContactManagement.Consulta.API.csproj", "{4B38F906-725A-4E12-8731-3E5593CAB642}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactManagement.Atualizacao.API", "Services\ContactManagement.Atualizacao.API\ContactManagement.Atualizacao.API.csproj", "{FCBA8912-1B4B-4A23-9C71-63ED2DDE6AED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactManagement.Exclusao.API", "Services\ContactManagement.Exclusao.API\ContactManagement.Exclusao.API.csproj", "{BCB5E4B1-76DB-4410-9CCC-F8CDC62ABB6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactManagement.Persistencia.Worker", "Services\ContactManagement.Persistencia.Worker\ContactManagement.Persistencia.Worker.csproj", "{9B8E637D-53D9-4020-941E-D6B5EC03AB9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01A2F861-6B1F-4979-AD5E-346774DB3F90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01A2F861-6B1F-4979-AD5E-346774DB3F90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01A2F861-6B1F-4979-AD5E-346774DB3F90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01A2F861-6B1F-4979-AD5E-346774DB3F90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B38F906-725A-4E12-8731-3E5593CAB642}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B38F906-725A-4E12-8731-3E5593CAB642}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B38F906-725A-4E12-8731-3E5593CAB642}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B38F906-725A-4E12-8731-3E5593CAB642}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCBA8912-1B4B-4A23-9C71-63ED2DDE6AED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCBA8912-1B4B-4A23-9C71-63ED2DDE6AED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCBA8912-1B4B-4A23-9C71-63ED2DDE6AED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCBA8912-1B4B-4A23-9C71-63ED2DDE6AED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCB5E4B1-76DB-4410-9CCC-F8CDC62ABB6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCB5E4B1-76DB-4410-9CCC-F8CDC62ABB6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCB5E4B1-76DB-4410-9CCC-F8CDC62ABB6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCB5E4B1-76DB-4410-9CCC-F8CDC62ABB6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B8E637D-53D9-4020-941E-D6B5EC03AB9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B8E637D-53D9-4020-941E-D6B5EC03AB9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B8E637D-53D9-4020-941E-D6B5EC03AB9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B8E637D-53D9-4020-941E-D6B5EC03AB9F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{01A2F861-6B1F-4979-AD5E-346774DB3F90} = {A919DDC9-E6DB-48EF-A583-B37D202AAEBE}
+		{4B38F906-725A-4E12-8731-3E5593CAB642} = {A919DDC9-E6DB-48EF-A583-B37D202AAEBE}
+		{FCBA8912-1B4B-4A23-9C71-63ED2DDE6AED} = {A919DDC9-E6DB-48EF-A583-B37D202AAEBE}
+		{BCB5E4B1-76DB-4410-9CCC-F8CDC62ABB6E} = {A919DDC9-E6DB-48EF-A583-B37D202AAEBE}
+		{9B8E637D-53D9-4020-941E-D6B5EC03AB9F} = {A919DDC9-E6DB-48EF-A583-B37D202AAEBE}
+	EndGlobalSection
+EndGlobal

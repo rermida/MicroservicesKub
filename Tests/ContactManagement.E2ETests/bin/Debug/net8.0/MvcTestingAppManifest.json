@@ -1,0 +1,10 @@
+{
+  "ContactManagement.Atualizacao.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Atualizacao.API",
+  "ContactManagement.Cadastro.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Cadastro.API",
+  "ContactManagement.Consulta.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Consulta.API",
+  "ContactManagement.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Domain",
+  "ContactManagement.Exclusao.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Exclusao.API",
+  "ContactManagement.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Infrastructure",
+  "ContactManagement.Messages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Messages",
+  "ContactManagement.Persistencia.Worker, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Persistencia.Worker"
+}
