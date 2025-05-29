@@ -1,0 +1,34 @@
+name: CI - Build and Test
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do código
+        uses: actions/checkout@v3
+
+      - name: Setup .NET 8 SDK
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Restaurar dependências
+        run: dotnet restore
+
+      - name: Compilar solução
+        run: dotnet build --no-restore --configuration Release
+
+      - name: Rodar testes unitários e de integração
+        run: |
+          dotnet test Tests/ContactManagement.Cadastro.Tests/ContactManagement.Cadastro.Tests.csproj --no-build --verbosity normal
+          dotnet test Tests/ContactManagement.Atualizacao.Tests/ContactManagement.Atualizacao.Tests.csproj --no-build --verbosity normal
+          dotnet test Tests/ContactManagement.Consulta.Tests/ContactManagement.Consulta.Tests.csproj --no-build --verbosity normal
+          dotnet test Tests/ContactManagement.Exclusao.Tests/ContactManagement.Exclusao.Tests.csproj --no-build --verbosity normal
+          dotnet test Tests/ContactManagement.Persistencia.Worker.Tests/ContactManagement.Persistencia.Worker.Tests.csproj --no-build --verbosity normal
