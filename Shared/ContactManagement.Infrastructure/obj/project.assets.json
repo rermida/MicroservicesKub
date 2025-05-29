@@ -4757,11 +4757,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Infrastructure\\ContactManagement.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Shared\\ContactManagement.Infrastructure\\ContactManagement.Infrastructure.csproj",
       "projectName": "ContactManagement.Infrastructure",
-      "projectPath": "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Infrastructure\\ContactManagement.Infrastructure.csproj",
+      "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Shared\\ContactManagement.Infrastructure\\ContactManagement.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\renan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Shared\\ContactManagement.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\renan\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -4776,8 +4776,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Domain\\ContactManagement.Domain.csproj": {
-              "projectPath": "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Domain\\ContactManagement.Domain.csproj"
+            "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Shared\\ContactManagement.Domain\\ContactManagement.Domain.csproj": {
+              "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Shared\\ContactManagement.Domain\\ContactManagement.Domain.csproj"
             }
           }
         }

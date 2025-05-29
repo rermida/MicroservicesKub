@@ -14,8 +14,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ContactManagement.Domain\ContactManagement.Domain.csproj" />
-    <ProjectReference Include="..\ContactManagement.Messages\ContactManagement.Messages.csproj" />
+    <ProjectReference Include="..\..\Shared\ContactManagement.Domain\ContactManagement.Domain.csproj" />
+    <ProjectReference Include="..\..\Shared\ContactManagement.Messages\ContactManagement.Messages.csproj" />
   </ItemGroup>
 
 </Project>

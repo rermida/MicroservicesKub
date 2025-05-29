@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hTSSE9fpUgU=",
+  "dgSpecHash": "aogMdhj3w38=",
   "success": true,
-  "projectFilePath": "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Cadastro.Tests\\ContactManagement.Cadastro.Tests.csproj",
+  "projectFilePath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Tests\\ContactManagement.Cadastro.Tests\\ContactManagement.Cadastro.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\renan\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\renan\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",

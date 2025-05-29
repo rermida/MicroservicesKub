@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PfJ0QoMkpks=",
+  "dgSpecHash": "xo/lx3QBoAo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Infrastructure\\ContactManagement.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Shared\\ContactManagement.Infrastructure\\ContactManagement.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\renan\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\renan\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

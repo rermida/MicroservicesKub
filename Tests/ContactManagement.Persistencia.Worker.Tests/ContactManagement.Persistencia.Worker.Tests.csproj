@@ -11,6 +11,7 @@
 
   <ItemGroup>
     <PackageReference Include="coverlet.collector" Version="6.0.0" />
+    <PackageReference Include="FluentAssertions" Version="8.3.0" />
     <PackageReference Include="MassTransit" Version="8.4.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="9.0.5" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
@@ -24,10 +25,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ContactManagement.Domain\ContactManagement.Domain.csproj" />
-    <ProjectReference Include="..\ContactManagement.Messages\ContactManagement.Messages.csproj" />
-    <ProjectReference Include="..\ContactManagement.Infrastructure\ContactManagement.Infrastructure.csproj" />
-    <ProjectReference Include="..\ContactManagement.Persistencia.Worker\ContactManagement.Persistencia.Worker.csproj" />
+    <ProjectReference Include="..\..\Services\ContactManagement.Domain\ContactManagement.Domain.csproj" />
+    <ProjectReference Include="..\..\Services\ContactManagement.Messages\ContactManagement.Messages.csproj" />
+    <ProjectReference Include="..\..\Services\ContactManagement.Infrastructure\ContactManagement.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Services\ContactManagement.Persistencia.Worker\ContactManagement.Persistencia.Worker.csproj" />
   </ItemGroup>
 
 </Project>

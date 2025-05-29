@@ -10033,18 +10033,18 @@
     },
     "ContactManagement.Atualizacao.API/1.0.0": {
       "type": "project",
-      "path": "../ContactManagement.Atualizacao.API/ContactManagement.Atualizacao.API.csproj",
-      "msbuildProject": "../ContactManagement.Atualizacao.API/ContactManagement.Atualizacao.API.csproj"
+      "path": "../../Services/ContactManagement.Atualizacao.API/ContactManagement.Atualizacao.API.csproj",
+      "msbuildProject": "../../Services/ContactManagement.Atualizacao.API/ContactManagement.Atualizacao.API.csproj"
     },
     "ContactManagement.Domain/1.0.0": {
       "type": "project",
-      "path": "../ContactManagement.Domain/ContactManagement.Domain.csproj",
-      "msbuildProject": "../ContactManagement.Domain/ContactManagement.Domain.csproj"
+      "path": "../../Shared/ContactManagement.Domain/ContactManagement.Domain.csproj",
+      "msbuildProject": "../../Shared/ContactManagement.Domain/ContactManagement.Domain.csproj"
     },
     "ContactManagement.Messages/1.0.0": {
       "type": "project",
-      "path": "../ContactManagement.Messages/ContactManagement.Messages.csproj",
-      "msbuildProject": "../ContactManagement.Messages/ContactManagement.Messages.csproj"
+      "path": "../../Shared/ContactManagement.Messages/ContactManagement.Messages.csproj",
+      "msbuildProject": "../../Shared/ContactManagement.Messages/ContactManagement.Messages.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -10064,11 +10064,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Atualizacao.Tests\\ContactManagement.Atualizacao.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Tests\\ContactManagement.Atualizacao.Tests\\ContactManagement.Atualizacao.Tests.csproj",
       "projectName": "ContactManagement.Atualizacao.Tests",
-      "projectPath": "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Atualizacao.Tests\\ContactManagement.Atualizacao.Tests.csproj",
+      "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Tests\\ContactManagement.Atualizacao.Tests\\ContactManagement.Atualizacao.Tests.csproj",
       "packagesPath": "C:\\Users\\renan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Atualizacao.Tests\\obj\\",
+      "outputPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Tests\\ContactManagement.Atualizacao.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\renan\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -10083,8 +10083,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Atualizacao.API\\ContactManagement.Atualizacao.API.csproj": {
-              "projectPath": "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Atualizacao.API\\ContactManagement.Atualizacao.API.csproj"
+            "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Services\\ContactManagement.Atualizacao.API\\ContactManagement.Atualizacao.API.csproj": {
+              "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Services\\ContactManagement.Atualizacao.API\\ContactManagement.Atualizacao.API.csproj"
             }
           }
         }

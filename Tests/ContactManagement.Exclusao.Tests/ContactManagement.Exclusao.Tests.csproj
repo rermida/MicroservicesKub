@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ContactManagement.Exclusao.API\ContactManagement.Exclusao.API.csproj" />
+    <ProjectReference Include="..\..\Services\ContactManagement.Exclusao.API\ContactManagement.Exclusao.API.csproj" />
   </ItemGroup>
 
 </Project>

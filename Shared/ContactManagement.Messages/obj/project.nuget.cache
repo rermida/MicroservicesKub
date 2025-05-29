@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0dJ9oXIFmf0=",
+  "dgSpecHash": "oFFvAD6B1NU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Messages\\ContactManagement.Messages.csproj",
+  "projectFilePath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Shared\\ContactManagement.Messages\\ContactManagement.Messages.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

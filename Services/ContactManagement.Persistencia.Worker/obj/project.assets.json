@@ -2183,6 +2183,45 @@
             "rid": "win"
           }
         }
+      },
+      "ContactManagement.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/ContactManagement.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ContactManagement.Domain.dll": {}
+        }
+      },
+      "ContactManagement.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "ContactManagement.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "9.0.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.1",
+          "Microsoft.Extensions.Caching.Memory": "9.0.1"
+        },
+        "compile": {
+          "bin/placeholder/ContactManagement.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ContactManagement.Infrastructure.dll": {}
+        }
+      },
+      "ContactManagement.Messages/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "ContactManagement.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ContactManagement.Messages.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ContactManagement.Messages.dll": {}
+        }
       }
     }
   },
@@ -6069,10 +6108,28 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "ContactManagement.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../Shared/ContactManagement.Domain/ContactManagement.Domain.csproj",
+      "msbuildProject": "../../Shared/ContactManagement.Domain/ContactManagement.Domain.csproj"
+    },
+    "ContactManagement.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../../Shared/ContactManagement.Infrastructure/ContactManagement.Infrastructure.csproj",
+      "msbuildProject": "../../Shared/ContactManagement.Infrastructure/ContactManagement.Infrastructure.csproj"
+    },
+    "ContactManagement.Messages/1.0.0": {
+      "type": "project",
+      "path": "../../Shared/ContactManagement.Messages/ContactManagement.Messages.csproj",
+      "msbuildProject": "../../Shared/ContactManagement.Messages/ContactManagement.Messages.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "ContactManagement.Domain >= 1.0.0",
+      "ContactManagement.Infrastructure >= 1.0.0",
+      "ContactManagement.Messages >= 1.0.0",
       "MassTransit >= 8.4.1",
       "MassTransit.RabbitMQ >= 8.4.1",
       "Microsoft.EntityFrameworkCore.Design >= 9.0.5",
@@ -6104,7 +6161,17 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Shared\\ContactManagement.Domain\\ContactManagement.Domain.csproj": {
+              "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Shared\\ContactManagement.Domain\\ContactManagement.Domain.csproj"
+            },
+            "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Shared\\ContactManagement.Infrastructure\\ContactManagement.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Shared\\ContactManagement.Infrastructure\\ContactManagement.Infrastructure.csproj"
+            },
+            "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Shared\\ContactManagement.Messages\\ContactManagement.Messages.csproj": {
+              "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Shared\\ContactManagement.Messages\\ContactManagement.Messages.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

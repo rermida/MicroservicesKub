@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ContactManagement.Atualizacao.API\ContactManagement.Atualizacao.API.csproj" />
+    <ProjectReference Include="..\..\Services\ContactManagement.Atualizacao.API\ContactManagement.Atualizacao.API.csproj" />
   </ItemGroup>
 
 </Project>

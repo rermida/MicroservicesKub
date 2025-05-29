@@ -1,13 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "KVYvJBzC5oI=",
+  "dgSpecHash": "qfswVZLmjiI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Persistencia.Worker.Tests\\ContactManagement.Persistencia.Worker.Tests.csproj",
+  "projectFilePath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Tests\\ContactManagement.Persistencia.Worker.Tests\\ContactManagement.Persistencia.Worker.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\renan\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\renan\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
     "C:\\Users\\renan\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\renan\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
+    "C:\\Users\\renan\\.nuget\\packages\\fluentassertions\\8.3.0\\fluentassertions.8.3.0.nupkg.sha512",
     "C:\\Users\\renan\\.nuget\\packages\\masstransit\\8.4.1\\masstransit.8.4.1.nupkg.sha512",
     "C:\\Users\\renan\\.nuget\\packages\\masstransit.abstractions\\8.4.1\\masstransit.abstractions.8.4.1.nupkg.sha512",
     "C:\\Users\\renan\\.nuget\\packages\\masstransit.rabbitmq\\8.4.1\\masstransit.rabbitmq.8.4.1.nupkg.sha512",

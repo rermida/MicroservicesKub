@@ -10033,18 +10033,18 @@
     },
     "ContactManagement.Cadastro.API/1.0.0": {
       "type": "project",
-      "path": "../ContactManagement.Cadastro.API/ContactManagement.Cadastro.API.csproj",
-      "msbuildProject": "../ContactManagement.Cadastro.API/ContactManagement.Cadastro.API.csproj"
+      "path": "../../Services/ContactManagement.Cadastro.API/ContactManagement.Cadastro.API.csproj",
+      "msbuildProject": "../../Services/ContactManagement.Cadastro.API/ContactManagement.Cadastro.API.csproj"
     },
     "ContactManagement.Domain/1.0.0": {
       "type": "project",
-      "path": "../ContactManagement.Domain/ContactManagement.Domain.csproj",
-      "msbuildProject": "../ContactManagement.Domain/ContactManagement.Domain.csproj"
+      "path": "../../Shared/ContactManagement.Domain/ContactManagement.Domain.csproj",
+      "msbuildProject": "../../Shared/ContactManagement.Domain/ContactManagement.Domain.csproj"
     },
     "ContactManagement.Messages/1.0.0": {
       "type": "project",
-      "path": "../ContactManagement.Messages/ContactManagement.Messages.csproj",
-      "msbuildProject": "../ContactManagement.Messages/ContactManagement.Messages.csproj"
+      "path": "../../Shared/ContactManagement.Messages/ContactManagement.Messages.csproj",
+      "msbuildProject": "../../Shared/ContactManagement.Messages/ContactManagement.Messages.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -10064,11 +10064,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Cadastro.Tests\\ContactManagement.Cadastro.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Tests\\ContactManagement.Cadastro.Tests\\ContactManagement.Cadastro.Tests.csproj",
       "projectName": "ContactManagement.Cadastro.Tests",
-      "projectPath": "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Cadastro.Tests\\ContactManagement.Cadastro.Tests.csproj",
+      "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Tests\\ContactManagement.Cadastro.Tests\\ContactManagement.Cadastro.Tests.csproj",
       "packagesPath": "C:\\Users\\renan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Cadastro.Tests\\obj\\",
+      "outputPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Tests\\ContactManagement.Cadastro.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\renan\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -10083,8 +10083,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Cadastro.API\\ContactManagement.Cadastro.API.csproj": {
-              "projectPath": "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Cadastro.API\\ContactManagement.Cadastro.API.csproj"
+            "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Services\\ContactManagement.Cadastro.API\\ContactManagement.Cadastro.API.csproj": {
+              "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Services\\ContactManagement.Cadastro.API\\ContactManagement.Cadastro.API.csproj"
             }
           }
         }

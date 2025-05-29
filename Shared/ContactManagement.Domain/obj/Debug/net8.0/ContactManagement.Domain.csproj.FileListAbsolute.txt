@@ -10,3 +10,15 @@ C:\Users\renan\devFIAP\Projeto\ContactManagement.Domain\obj\Debug\net8.0\Contact
 C:\Users\renan\devFIAP\Projeto\ContactManagement.Domain\obj\Debug\net8.0\refint\ContactManagement.Domain.dll
 C:\Users\renan\devFIAP\Projeto\ContactManagement.Domain\obj\Debug\net8.0\ContactManagement.Domain.pdb
 C:\Users\renan\devFIAP\Projeto\ContactManagement.Domain\obj\Debug\net8.0\ref\ContactManagement.Domain.dll
+C:\Users\renan\devFIAP\ContactManagement\Microservices\Shared\ContactManagement.Domain\bin\Debug\net8.0\ContactManagement.Domain.deps.json
+C:\Users\renan\devFIAP\ContactManagement\Microservices\Shared\ContactManagement.Domain\bin\Debug\net8.0\ContactManagement.Domain.dll
+C:\Users\renan\devFIAP\ContactManagement\Microservices\Shared\ContactManagement.Domain\bin\Debug\net8.0\ContactManagement.Domain.pdb
+C:\Users\renan\devFIAP\ContactManagement\Microservices\Shared\ContactManagement.Domain\obj\Debug\net8.0\ContactManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\renan\devFIAP\ContactManagement\Microservices\Shared\ContactManagement.Domain\obj\Debug\net8.0\ContactManagement.Domain.AssemblyInfoInputs.cache
+C:\Users\renan\devFIAP\ContactManagement\Microservices\Shared\ContactManagement.Domain\obj\Debug\net8.0\ContactManagement.Domain.AssemblyInfo.cs
+C:\Users\renan\devFIAP\ContactManagement\Microservices\Shared\ContactManagement.Domain\obj\Debug\net8.0\ContactManagement.Domain.csproj.CoreCompileInputs.cache
+C:\Users\renan\devFIAP\ContactManagement\Microservices\Shared\ContactManagement.Domain\obj\Debug\net8.0\ContactManagement.Domain.sourcelink.json
+C:\Users\renan\devFIAP\ContactManagement\Microservices\Shared\ContactManagement.Domain\obj\Debug\net8.0\ContactManagement.Domain.dll
+C:\Users\renan\devFIAP\ContactManagement\Microservices\Shared\ContactManagement.Domain\obj\Debug\net8.0\refint\ContactManagement.Domain.dll
+C:\Users\renan\devFIAP\ContactManagement\Microservices\Shared\ContactManagement.Domain\obj\Debug\net8.0\ContactManagement.Domain.pdb
+C:\Users\renan\devFIAP\ContactManagement\Microservices\Shared\ContactManagement.Domain\obj\Debug\net8.0\ref\ContactManagement.Domain.dll

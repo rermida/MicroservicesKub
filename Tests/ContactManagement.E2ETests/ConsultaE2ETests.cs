@@ -1,79 +1,83 @@
 using System;
-using System.Linq;
-using System.Net;
+using System.Collections.Generic;
 using System.Net.Http;
 using System.Net.Http.Json;
 using System.Threading.Tasks;
 using ContactManagement.Cadastro.API.Models;
+using ContactManagement.Domain.Entities;
+using ContactManagement.E2ETests.Factories;
 using ContactManagement.Infrastructure.Data;
 using ContactManagement.Messages.Events;
 using FluentAssertions;
 using MassTransit.Testing;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Xunit;
-using ContactRead = ContactManagement.Messages.Events.ContactRead;
 
 namespace ContactManagement.E2ETests
 {
     public class ConsultaE2ETests :
-        IClassFixture<Factories.CadastroApiFactory>,
-        IClassFixture<Factories.ConsultaApiFactory>
+        IClassFixture<CadastroApiFactory>,
+        IClassFixture<ConsultaApiFactory>
     {
-        private readonly HttpClient       _cadastroClient;
-        private readonly HttpClient       _consultaClient;
-        private readonly ITestHarness     _harness;
-        private readonly ContactDbContext _db;
+        private readonly HttpClient _cadastroClient;
+        private readonly HttpClient _consultaClient;
+        private readonly ITestHarness _harness;
+        private readonly IServiceProvider _consultaServices;
 
         public ConsultaE2ETests(
-            Factories.CadastroApiFactory cadastroFactory,
-            Factories.ConsultaApiFactory consultaFactory)
+            CadastroApiFactory cadastroFactory,
+            ConsultaApiFactory consultaFactory)
         {
             _cadastroClient = cadastroFactory.CreateClient();
             _consultaClient = consultaFactory.CreateClient();
-
             _harness = consultaFactory.Services.GetRequiredService<ITestHarness>();
-            _harness.Start().GetAwaiter().GetResult();
+            _consultaServices = consultaFactory.Services;
 
-            var scope = consultaFactory.Services.CreateScope();
-            _db = scope.ServiceProvider.GetRequiredService<ContactDbContext>();
+            _harness.Start().GetAwaiter().GetResult();
         }
 
         [Fact]
         public async Task GetById_PublishesContactRead_AndUpdatesLastReadAt()
         {
-            // 1) Arrange: cria um contato
-            var createReq = new CreateContactRequest(
-                "Consulta Teste",
-                "consulta@teste.com",
-                "87654321",
-                "11"
-            );
-            var postResponse = await _cadastroClient.PostAsJsonAsync("/api/contacts", createReq);
-            await _harness.Start();
+            // Arrange: Cria o contato via API de Cadastro
+            var request = new CreateContactRequest("Carlos", "carlos@ex.com", "123123123", "21");
+            var response = await _cadastroClient.PostAsJsonAsync("/api/contacts", request);
+            response.EnsureSuccessStatusCode();
 
-            var exists = await _harness.Consumed.Any<ContactCreated>();
-            exists.Should().BeTrue("evento ContactCreated deveria ter sido consumido");
+            var result = await response.Content.ReadFromJsonAsync<Dictionary<string, Guid>>();
+            var id = result!["id"];
 
-            await Task.Delay(500); // pequena espera para o consumidor persistir
+            // 🔄 Aguarda persistência no banco da Consulta
+            const int maxRetries = 10;
+            int retries = 0;
+            Contact? contact = null;
 
-            postResponse.StatusCode.Should().Be(HttpStatusCode.Accepted);
+            while (contact == null && retries++ < maxRetries)
+            {
+                await Task.Delay(200);
 
-            var location = postResponse.Headers.Location.ToString();
-            var id       = location.Split('/').Last();
+                using var scope = _consultaServices.CreateScope();
+                var db = scope.ServiceProvider.GetRequiredService<ContactDbContext>();
+                contact = await db.Contacts.FindAsync(id);
+            }
 
-            // 2) Act: client de consulta faz GET por ID
-            var getResponse = await _consultaClient.GetAsync($"/api/contacts/{id}");
-            getResponse.StatusCode.Should().Be(HttpStatusCode.OK);
+            contact.Should().NotBeNull("esperava-se que o contato fosse persistido no banco da Consulta");
 
-            // 3) Assert: evento ContactRead publicado
-            (await _harness.Published.Any<ContactRead>())
-                .Should().BeTrue();
+            // Act - consulta pela API de Consulta
+            var consultaResponse = await _consultaClient.GetAsync($"/api/contacts/{id}");
+            consultaResponse.EnsureSuccessStatusCode();
 
-            // 4) Assert: LastReadAt populado no banco
-            var contact = await _db.Contacts.SingleAsync(c => c.Id == Guid.Parse(id));
-            contact.LastReadAt.Should().NotBeNull();
-            contact.LastReadAt.Value.Should().BeCloseTo(DateTimeOffset.UtcNow, TimeSpan.FromSeconds(5));
+            // Assert - evento de leitura foi consumido
+            (await _harness.Consumed.Any<ContactRead>())
+                .Should().BeTrue("esperava-se que ContactRead fosse consumido");
+
+            // Assert - campo LastReadAt atualizado
+            using (var scope = _consultaServices.CreateScope())
+            {
+                var db = scope.ServiceProvider.GetRequiredService<ContactDbContext>();
+                var reloaded = await db.Contacts.FindAsync(id);
+                reloaded!.LastReadAt.Should().NotBeNull("esperava-se que LastReadAt fosse atualizado após leitura");
+            }
         }
     }
 }

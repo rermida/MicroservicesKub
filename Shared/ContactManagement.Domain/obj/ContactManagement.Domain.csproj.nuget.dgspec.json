@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Domain\\ContactManagement.Domain.csproj": {}
+    "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Shared\\ContactManagement.Domain\\ContactManagement.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Domain\\ContactManagement.Domain.csproj": {
+    "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Shared\\ContactManagement.Domain\\ContactManagement.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Domain\\ContactManagement.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Shared\\ContactManagement.Domain\\ContactManagement.Domain.csproj",
         "projectName": "ContactManagement.Domain",
-        "projectPath": "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Domain\\ContactManagement.Domain.csproj",
+        "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Shared\\ContactManagement.Domain\\ContactManagement.Domain.csproj",
         "packagesPath": "C:\\Users\\renan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Domain\\obj\\",
+        "outputPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Shared\\ContactManagement.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\renan\\AppData\\Roaming\\NuGet\\NuGet.Config"

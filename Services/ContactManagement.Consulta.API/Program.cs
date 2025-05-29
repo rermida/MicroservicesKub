@@ -11,7 +11,7 @@ var builder = WebApplication.CreateBuilder(args);
 if (!builder.Environment.IsEnvironment("Testing"))
 {
     builder.Services.AddDbContext<ContactDbContext>(options =>
-        options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+        options.UseSqlServer(builder.Configuration.GetConnectionString("SqlServer")));
 }
 
 builder.Services.AddMassTransit(x =>
@@ -29,6 +29,8 @@ builder.Services.AddMassTransit(x =>
         cfg.ConfigureEndpoints(context);
     });
 });
+
+builder.Services.AddScoped<IContactRepository, ContactRepository>();
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();

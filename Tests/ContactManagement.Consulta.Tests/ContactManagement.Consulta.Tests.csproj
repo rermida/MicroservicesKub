@@ -23,10 +23,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ContactManagement.Cadastro.API\ContactManagement.Cadastro.API.csproj" />
-    <ProjectReference Include="..\ContactManagement.Consulta.API\ContactManagement.Consulta.API.csproj" />
-    <ProjectReference Include="..\ContactManagement.Atualizacao.API\ContactManagement.Atualizacao.API.csproj" />
-    <ProjectReference Include="..\ContactManagement.Exclusao.API\ContactManagement.Exclusao.API.csproj" />
+    <ProjectReference Include="..\..\Services\ContactManagement.Cadastro.API\ContactManagement.Cadastro.API.csproj" />
+    <ProjectReference Include="..\..\Services\ContactManagement.Consulta.API\ContactManagement.Consulta.API.csproj" />
+    <ProjectReference Include="..\..\Services\ContactManagement.Atualizacao.API\ContactManagement.Atualizacao.API.csproj" />
+    <ProjectReference Include="..\..\Services\ContactManagement.Exclusao.API\ContactManagement.Exclusao.API.csproj" />
   </ItemGroup>
 
 </Project>

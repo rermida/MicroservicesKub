@@ -10111,43 +10111,43 @@
     },
     "ContactManagement.Atualizacao.API/1.0.0": {
       "type": "project",
-      "path": "../ContactManagement.Atualizacao.API/ContactManagement.Atualizacao.API.csproj",
-      "msbuildProject": "../ContactManagement.Atualizacao.API/ContactManagement.Atualizacao.API.csproj"
+      "path": "../../Services/ContactManagement.Atualizacao.API/ContactManagement.Atualizacao.API.csproj",
+      "msbuildProject": "../../Services/ContactManagement.Atualizacao.API/ContactManagement.Atualizacao.API.csproj"
     },
     "ContactManagement.Cadastro.API/1.0.0": {
       "type": "project",
-      "path": "../ContactManagement.Cadastro.API/ContactManagement.Cadastro.API.csproj",
-      "msbuildProject": "../ContactManagement.Cadastro.API/ContactManagement.Cadastro.API.csproj"
+      "path": "../../Services/ContactManagement.Cadastro.API/ContactManagement.Cadastro.API.csproj",
+      "msbuildProject": "../../Services/ContactManagement.Cadastro.API/ContactManagement.Cadastro.API.csproj"
     },
     "ContactManagement.Consulta.API/1.0.0": {
       "type": "project",
-      "path": "../ContactManagement.Consulta.API/ContactManagement.Consulta.API.csproj",
-      "msbuildProject": "../ContactManagement.Consulta.API/ContactManagement.Consulta.API.csproj"
+      "path": "../../Services/ContactManagement.Consulta.API/ContactManagement.Consulta.API.csproj",
+      "msbuildProject": "../../Services/ContactManagement.Consulta.API/ContactManagement.Consulta.API.csproj"
     },
     "ContactManagement.Domain/1.0.0": {
       "type": "project",
-      "path": "../ContactManagement.Domain/ContactManagement.Domain.csproj",
-      "msbuildProject": "../ContactManagement.Domain/ContactManagement.Domain.csproj"
+      "path": "../../Shared/ContactManagement.Domain/ContactManagement.Domain.csproj",
+      "msbuildProject": "../../Shared/ContactManagement.Domain/ContactManagement.Domain.csproj"
     },
     "ContactManagement.Exclusao.API/1.0.0": {
       "type": "project",
-      "path": "../ContactManagement.Exclusao.API/ContactManagement.Exclusao.API.csproj",
-      "msbuildProject": "../ContactManagement.Exclusao.API/ContactManagement.Exclusao.API.csproj"
+      "path": "../../Services/ContactManagement.Exclusao.API/ContactManagement.Exclusao.API.csproj",
+      "msbuildProject": "../../Services/ContactManagement.Exclusao.API/ContactManagement.Exclusao.API.csproj"
     },
     "ContactManagement.Infrastructure/1.0.0": {
       "type": "project",
-      "path": "../ContactManagement.Infrastructure/ContactManagement.Infrastructure.csproj",
-      "msbuildProject": "../ContactManagement.Infrastructure/ContactManagement.Infrastructure.csproj"
+      "path": "../../Shared/ContactManagement.Infrastructure/ContactManagement.Infrastructure.csproj",
+      "msbuildProject": "../../Shared/ContactManagement.Infrastructure/ContactManagement.Infrastructure.csproj"
     },
     "ContactManagement.Messages/1.0.0": {
       "type": "project",
-      "path": "../ContactManagement.Messages/ContactManagement.Messages.csproj",
-      "msbuildProject": "../ContactManagement.Messages/ContactManagement.Messages.csproj"
+      "path": "../../Shared/ContactManagement.Messages/ContactManagement.Messages.csproj",
+      "msbuildProject": "../../Shared/ContactManagement.Messages/ContactManagement.Messages.csproj"
     },
     "ContactManagement.Persistencia.Worker/1.0.0": {
       "type": "project",
-      "path": "../ContactManagement.Persistencia.Worker/ContactManagement.Persistencia.Worker.csproj",
-      "msbuildProject": "../ContactManagement.Persistencia.Worker/ContactManagement.Persistencia.Worker.csproj"
+      "path": "../../Services/ContactManagement.Persistencia.Worker/ContactManagement.Persistencia.Worker.csproj",
+      "msbuildProject": "../../Services/ContactManagement.Persistencia.Worker/ContactManagement.Persistencia.Worker.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -10172,11 +10172,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.E2ETests\\ContactManagement.E2ETests.csproj",
+      "projectUniqueName": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Tests\\ContactManagement.E2ETests\\ContactManagement.E2ETests.csproj",
       "projectName": "ContactManagement.E2ETests",
-      "projectPath": "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.E2ETests\\ContactManagement.E2ETests.csproj",
+      "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Tests\\ContactManagement.E2ETests\\ContactManagement.E2ETests.csproj",
       "packagesPath": "C:\\Users\\renan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.E2ETests\\obj\\",
+      "outputPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Tests\\ContactManagement.E2ETests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\renan\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -10191,20 +10191,20 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Atualizacao.API\\ContactManagement.Atualizacao.API.csproj": {
-              "projectPath": "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Atualizacao.API\\ContactManagement.Atualizacao.API.csproj"
+            "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Services\\ContactManagement.Atualizacao.API\\ContactManagement.Atualizacao.API.csproj": {
+              "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Services\\ContactManagement.Atualizacao.API\\ContactManagement.Atualizacao.API.csproj"
             },
-            "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Cadastro.API\\ContactManagement.Cadastro.API.csproj": {
-              "projectPath": "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Cadastro.API\\ContactManagement.Cadastro.API.csproj"
+            "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Services\\ContactManagement.Cadastro.API\\ContactManagement.Cadastro.API.csproj": {
+              "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Services\\ContactManagement.Cadastro.API\\ContactManagement.Cadastro.API.csproj"
             },
-            "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Consulta.API\\ContactManagement.Consulta.API.csproj": {
-              "projectPath": "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Consulta.API\\ContactManagement.Consulta.API.csproj"
+            "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Services\\ContactManagement.Consulta.API\\ContactManagement.Consulta.API.csproj": {
+              "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Services\\ContactManagement.Consulta.API\\ContactManagement.Consulta.API.csproj"
             },
-            "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Exclusao.API\\ContactManagement.Exclusao.API.csproj": {
-              "projectPath": "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Exclusao.API\\ContactManagement.Exclusao.API.csproj"
+            "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Services\\ContactManagement.Exclusao.API\\ContactManagement.Exclusao.API.csproj": {
+              "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Services\\ContactManagement.Exclusao.API\\ContactManagement.Exclusao.API.csproj"
             },
-            "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Persistencia.Worker\\ContactManagement.Persistencia.Worker.csproj": {
-              "projectPath": "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Persistencia.Worker\\ContactManagement.Persistencia.Worker.csproj"
+            "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Services\\ContactManagement.Persistencia.Worker\\ContactManagement.Persistencia.Worker.csproj": {
+              "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Services\\ContactManagement.Persistencia.Worker\\ContactManagement.Persistencia.Worker.csproj"
             }
           }
         }

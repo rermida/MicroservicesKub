@@ -69,6 +69,19 @@
           "build/netstandard1.0/coverlet.collector.targets": {}
         }
       },
+      "FluentAssertions/8.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/FluentAssertions.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/FluentAssertions.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "MassTransit/8.4.1": {
         "type": "package",
         "dependencies": {
@@ -3409,6 +3422,31 @@
         "coverlet-icon.png",
         "coverlet.collector.6.0.0.nupkg.sha512",
         "coverlet.collector.nuspec"
+      ]
+    },
+    "FluentAssertions/8.3.0": {
+      "sha512": "iri1druxHPUAvaFqTUKJG7NOHwnOLmWwfDorgezZWpeBWBJmk2o8niI7jL7zW9TEFGnUpMJi/JLG6FXgr3cM3A==",
+      "type": "package",
+      "path": "fluentassertions/8.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "FluentAssertions.png",
+        "LICENSE",
+        "fluentassertions.8.3.0.nupkg.sha512",
+        "fluentassertions.nuspec",
+        "lib/net47/FluentAssertions.dll",
+        "lib/net47/FluentAssertions.pdb",
+        "lib/net47/FluentAssertions.xml",
+        "lib/net6.0/FluentAssertions.dll",
+        "lib/net6.0/FluentAssertions.pdb",
+        "lib/net6.0/FluentAssertions.xml",
+        "lib/netstandard2.0/FluentAssertions.dll",
+        "lib/netstandard2.0/FluentAssertions.pdb",
+        "lib/netstandard2.0/FluentAssertions.xml",
+        "lib/netstandard2.1/FluentAssertions.dll",
+        "lib/netstandard2.1/FluentAssertions.pdb",
+        "lib/netstandard2.1/FluentAssertions.xml"
       ]
     },
     "MassTransit/8.4.1": {
@@ -9466,31 +9504,29 @@
     },
     "ContactManagement.Domain/1.0.0": {
       "type": "project",
-      "path": "../ContactManagement.Domain/ContactManagement.Domain.csproj",
-      "msbuildProject": "../ContactManagement.Domain/ContactManagement.Domain.csproj"
+      "path": "../../Shared/ContactManagement.Domain/ContactManagement.Domain.csproj",
+      "msbuildProject": "../../Shared/ContactManagement.Domain/ContactManagement.Domain.csproj"
     },
     "ContactManagement.Infrastructure/1.0.0": {
       "type": "project",
-      "path": "../ContactManagement.Infrastructure/ContactManagement.Infrastructure.csproj",
-      "msbuildProject": "../ContactManagement.Infrastructure/ContactManagement.Infrastructure.csproj"
+      "path": "../../Shared/ContactManagement.Infrastructure/ContactManagement.Infrastructure.csproj",
+      "msbuildProject": "../../Shared/ContactManagement.Infrastructure/ContactManagement.Infrastructure.csproj"
     },
     "ContactManagement.Messages/1.0.0": {
       "type": "project",
-      "path": "../ContactManagement.Messages/ContactManagement.Messages.csproj",
-      "msbuildProject": "../ContactManagement.Messages/ContactManagement.Messages.csproj"
+      "path": "../../Shared/ContactManagement.Messages/ContactManagement.Messages.csproj",
+      "msbuildProject": "../../Shared/ContactManagement.Messages/ContactManagement.Messages.csproj"
     },
     "ContactManagement.Persistencia.Worker/1.0.0": {
       "type": "project",
-      "path": "../ContactManagement.Persistencia.Worker/ContactManagement.Persistencia.Worker.csproj",
-      "msbuildProject": "../ContactManagement.Persistencia.Worker/ContactManagement.Persistencia.Worker.csproj"
+      "path": "../../Services/ContactManagement.Persistencia.Worker/ContactManagement.Persistencia.Worker.csproj",
+      "msbuildProject": "../../Services/ContactManagement.Persistencia.Worker/ContactManagement.Persistencia.Worker.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "ContactManagement.Domain >= 1.0.0",
-      "ContactManagement.Infrastructure >= 1.0.0",
-      "ContactManagement.Messages >= 1.0.0",
       "ContactManagement.Persistencia.Worker >= 1.0.0",
+      "FluentAssertions >= 8.3.0",
       "MassTransit >= 8.4.1",
       "Microsoft.EntityFrameworkCore.InMemory >= 9.0.5",
       "Microsoft.NET.Test.Sdk >= 17.8.0",
@@ -9506,11 +9542,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Persistencia.Worker.Tests\\ContactManagement.Persistencia.Worker.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Tests\\ContactManagement.Persistencia.Worker.Tests\\ContactManagement.Persistencia.Worker.Tests.csproj",
       "projectName": "ContactManagement.Persistencia.Worker.Tests",
-      "projectPath": "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Persistencia.Worker.Tests\\ContactManagement.Persistencia.Worker.Tests.csproj",
+      "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Tests\\ContactManagement.Persistencia.Worker.Tests\\ContactManagement.Persistencia.Worker.Tests.csproj",
       "packagesPath": "C:\\Users\\renan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Persistencia.Worker.Tests\\obj\\",
+      "outputPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Tests\\ContactManagement.Persistencia.Worker.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\renan\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -9525,17 +9561,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Domain\\ContactManagement.Domain.csproj": {
-              "projectPath": "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Domain\\ContactManagement.Domain.csproj"
-            },
-            "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Infrastructure\\ContactManagement.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Infrastructure\\ContactManagement.Infrastructure.csproj"
-            },
-            "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Messages\\ContactManagement.Messages.csproj": {
-              "projectPath": "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Messages\\ContactManagement.Messages.csproj"
-            },
-            "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Persistencia.Worker\\ContactManagement.Persistencia.Worker.csproj": {
-              "projectPath": "C:\\Users\\renan\\devFIAP\\Projeto\\ContactManagement.Persistencia.Worker\\ContactManagement.Persistencia.Worker.csproj"
+            "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Services\\ContactManagement.Persistencia.Worker\\ContactManagement.Persistencia.Worker.csproj": {
+              "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Services\\ContactManagement.Persistencia.Worker\\ContactManagement.Persistencia.Worker.csproj"
             }
           }
         }
@@ -9555,6 +9582,10 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "FluentAssertions": {
+            "target": "Package",
+            "version": "[8.3.0, )"
+          },
           "MassTransit": {
             "target": "Package",
             "version": "[8.4.1, )"
