@@ -1,0 +1,29 @@
+global:
+  scrape_interval: 5s
+
+scrape_configs:
+  - job_name: 'cadastro-api'
+    static_configs:
+      - targets: ['host.docker.internal:5001']
+
+  - job_name: 'atualizacao-api'
+    static_configs:
+      - targets: ['host.docker.internal:5002']
+
+  - job_name: 'consulta-api'
+    static_configs:
+      - targets: ['host.docker.internal:5003']
+
+  - job_name: 'exclusao-api'
+    static_configs:
+      - targets: ['host.docker.internal:5004']
+
+  - job_name: 'persistencia-worker'
+    static_configs:
+      - targets: ['host.docker.internal:8081']
+
+  - job_name: 'cadvisor'
+    static_configs:
+      - targets: ['host.docker.internal:8080']
+
+

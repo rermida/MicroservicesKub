@@ -3,9 +3,12 @@ using Microsoft.EntityFrameworkCore;
 using ContactManagement.Domain.Repositories;
 using ContactManagement.Infrastructure.Data;
 using ContactManagement.Infrastructure.Repositories;
-using ContactManagement.Persistencia.Worker;
+using Prometheus;
 
 var builder = WebApplication.CreateBuilder(args);
+
+// 🔧 Escutar na porta 80 do container
+builder.WebHost.UseUrls("http://*:80");
 
 // ⚠️ Apenas adiciona SQL Server se não for ambiente de testes
 if (!builder.Environment.IsEnvironment("Testing"))
@@ -16,8 +19,6 @@ if (!builder.Environment.IsEnvironment("Testing"))
 
 builder.Services.AddMassTransit(x =>
 {
-    x.AddConsumer<ContactManagement.Persistencia.Worker.Consumers.ContactReadConsumer>();
-
     x.UsingRabbitMq((context, cfg) =>
     {
         cfg.Host(builder.Configuration.GetConnectionString("RabbitMQ") ?? "rabbitmq://localhost", h =>
@@ -38,15 +39,26 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+// Middleware Prometheus + Swagger
+app.UseSwagger();
+app.UseSwaggerUI();
 
 app.UseHttpsRedirection();
+
+app.UseRouting();
+
+// 🔎 Middleware para métricas HTTP (latência, status, etc)
+app.UseHttpMetrics(); // <--- coleta automáticas por endpoint e status
+
 app.UseAuthorization();
-app.MapControllers();
+
+// Map Controllers e Endpoint /metrics
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllers();
+    endpoints.MapMetrics(); // <--- Prometheus scrape target
+});
+
 app.Run();
 
 namespace ContactManagement.Consulta.API

@@ -82,3 +82,5 @@ C:\Users\renan\devFIAP\ContactManagement\Microservices\Services\ContactManagemen
 C:\Users\renan\devFIAP\ContactManagement\Microservices\Services\ContactManagement.Cadastro.API\obj\Debug\net8.0\ContactM.4EEDA5EA.Up2Date
 C:\Users\renan\devFIAP\ContactManagement\Microservices\Services\ContactManagement.Cadastro.API\obj\Debug\net8.0\ContactManagement.Cadastro.API.genruntimeconfig.cache
 C:\Users\renan\devFIAP\ContactManagement\Microservices\Services\ContactManagement.Cadastro.API\obj\Debug\net8.0\ref\ContactManagement.Cadastro.API.dll
+C:\Users\renan\devFIAP\ContactManagement\Microservices\Services\ContactManagement.Cadastro.API\bin\Debug\net8.0\Prometheus.NetStandard.dll
+C:\Users\renan\devFIAP\ContactManagement\Microservices\Services\ContactManagement.Cadastro.API\bin\Debug\net8.0\Prometheus.AspNetCore.dll

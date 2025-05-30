@@ -1,0 +1,121 @@
+version: "3.7"
+
+services:
+  rabbitmq:
+    image: rabbitmq:3-management
+    container_name: rabbitmq
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    environment:
+      RABBITMQ_DEFAULT_USER: guest
+      RABBITMQ_DEFAULT_PASS: guest
+
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    container_name: sqlserver
+    ports:
+      - "1433:1433"
+    environment:
+      SA_PASSWORD: "1a2b3c4d"
+      ACCEPT_EULA: "Y"
+    volumes:
+      - sqlserver-data:/var/opt/mssql
+
+  cadastro:
+    build:
+      context: .
+      dockerfile: ./Services/ContactManagement.Cadastro.API/Dockerfile
+    container_name: cadastro
+    depends_on:
+      - rabbitmq
+    environment:
+      - ConnectionStrings__RabbitMQ=rabbitmq://rabbitmq
+      - ConnectionStrings__SqlServer=Server=sqlserver,1433;Database=ContactDb;User Id=sa;Password=1a2b3c4d;TrustServerCertificate=True;
+    ports:
+      - "5001:80"
+
+  atualizacao:
+    build:
+      context: .
+      dockerfile: ./Services/ContactManagement.Atualizacao.API/Dockerfile
+    container_name: atualizacao
+    depends_on:
+      - rabbitmq
+    environment:
+      - ConnectionStrings__RabbitMQ=rabbitmq://rabbitmq
+    ports:
+      - "5002:80"
+
+  exclusao:
+    build:
+      context: .
+      dockerfile: ./Services/ContactManagement.Exclusao.API/Dockerfile
+    container_name: exclusao
+    depends_on:
+      - rabbitmq
+    environment:
+      - ConnectionStrings__RabbitMQ=rabbitmq://rabbitmq
+    ports:
+      - "5003:80"
+
+  consulta:
+    build:
+      context: .
+      dockerfile: ./Services/ContactManagement.Consulta.API/Dockerfile
+    container_name: consulta
+    depends_on:
+      - rabbitmq
+      - sqlserver
+    environment:
+      - ConnectionStrings__RabbitMQ=rabbitmq://rabbitmq
+      - ConnectionStrings__SqlServer=Server=sqlserver,1433;Database=ContactDb;User Id=sa;Password=1a2b3c4d;TrustServerCertificate=True;
+    ports:
+      - "5004:80"
+
+  persistencia:
+    build:
+      context: .
+      dockerfile: ./Services/ContactManagement.Persistencia.Worker/Dockerfile
+    container_name: persistencia
+    depends_on:
+      - rabbitmq
+      - sqlserver
+    environment:
+      - ConnectionStrings__RabbitMQ=rabbitmq://rabbitmq
+      - ConnectionStrings__SqlServer=Server=sqlserver,1433;Database=ContactDb;User Id=sa;Password=1a2b3c4d;TrustServerCertificate=True;
+    ports:
+      - "8081:8081"
+  
+  prometheus:
+    image: prom/prometheus
+    container_name: prometheus
+    volumes:
+      - ./monitoring/prometheus.yml:/etc/prometheus/prometheus.yml
+    ports:
+      - "9090:9090"
+
+  grafana:
+    image: grafana/grafana
+    container_name: grafana
+    ports:
+      - "3000:3000"
+    volumes:
+      - grafana-storage:/var/lib/grafana
+
+  cadvisor:
+    image: gcr.io/cadvisor/cadvisor:latest
+    container_name: cadvisor
+    ports:
+      - "8080:8080"
+    volumes:
+      - /:/rootfs:ro
+      - /var/run:/var/run:ro
+      - /sys:/sys:ro
+      - /var/lib/docker/:/var/lib/docker:ro
+
+volumes:
+  grafana-storage:
+  sqlserver-data:
+
+

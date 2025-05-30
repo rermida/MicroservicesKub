@@ -2,13 +2,21 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
-COPY ["ContactManagement.Cadastro.API/ContactManagement.Cadastro.API.csproj", "ContactManagement.Cadastro.API/"]
-COPY ["ContactManagement.Domain/ContactManagement.Domain.csproj", "ContactManagement.Domain/"]
-COPY ["ContactManagement.Messages/ContactManagement.Messages.csproj", "ContactManagement.Messages/"]
-RUN dotnet restore "ContactManagement.Cadastro.API/ContactManagement.Cadastro.API.csproj"
+# Copia os arquivos .csproj para restaurar dependências
+COPY ["Services/ContactManagement.Cadastro.API/ContactManagement.Cadastro.API.csproj", "Services/ContactManagement.Cadastro.API/"]
+COPY ["Shared/ContactManagement.Domain/ContactManagement.Domain.csproj", "Shared/ContactManagement.Domain/"]
+COPY ["Shared/ContactManagement.Messages/ContactManagement.Messages.csproj", "Shared/ContactManagement.Messages/"]
 
-COPY . .
-WORKDIR "/src/ContactManagement.Cadastro.API"
+# Restaura as dependências
+RUN dotnet restore "Services/ContactManagement.Cadastro.API/ContactManagement.Cadastro.API.csproj"
+
+# Copia apenas os arquivos necessários para build
+COPY ["Services/ContactManagement.Cadastro.API/", "Services/ContactManagement.Cadastro.API/"]
+COPY ["Shared/ContactManagement.Domain/", "Shared/ContactManagement.Domain/"]
+COPY ["Shared/ContactManagement.Messages/", "Shared/ContactManagement.Messages/"]
+
+# Publica o projeto
+WORKDIR "/src/Services/ContactManagement.Cadastro.API"
 RUN dotnet publish -c Release -o /app/publish
 
 # Runtime

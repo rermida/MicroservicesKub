@@ -2,14 +2,23 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
-COPY ["ContactManagement.Consulta.API/ContactManagement.Consulta.API.csproj", "ContactManagement.Consulta.API/"]
-COPY ["ContactManagement.Domain/ContactManagement.Domain.csproj", "ContactManagement.Domain/"]
-COPY ["ContactManagement.Infrastructure/ContactManagement.Infrastructure.csproj", "ContactManagement.Infrastructure/"]
-COPY ["ContactManagement.Messages/ContactManagement.Messages.csproj", "ContactManagement.Messages/"]
-RUN dotnet restore "ContactManagement.Consulta.API/ContactManagement.Consulta.API.csproj"
+# Copiar arquivos .csproj com caminhos relativos ao contexto de build (Microservices/)
+COPY ["Services/ContactManagement.Consulta.API/ContactManagement.Consulta.API.csproj", "Services/ContactManagement.Consulta.API/"]
+COPY ["Shared/ContactManagement.Domain/ContactManagement.Domain.csproj", "Shared/ContactManagement.Domain/"]
+COPY ["Shared/ContactManagement.Infrastructure/ContactManagement.Infrastructure.csproj", "Shared/ContactManagement.Infrastructure/"]
+COPY ["Shared/ContactManagement.Messages/ContactManagement.Messages.csproj", "Shared/ContactManagement.Messages/"]
 
-COPY . .
-WORKDIR "/src/ContactManagement.Consulta.API"
+# Restaurar dependências
+RUN dotnet restore "Services/ContactManagement.Consulta.API/ContactManagement.Consulta.API.csproj"
+
+# Copia apenas os arquivos necessários para build
+COPY ["Services/ContactManagement.Consulta.API/", "Services/ContactManagement.Consulta.API/"]
+COPY ["Shared/ContactManagement.Domain/", "Shared/ContactManagement.Domain/"]
+COPY ["Shared/ContactManagement.Infrastructure/", "Shared/ContactManagement.Infrastructure/"]
+COPY ["Shared/ContactManagement.Messages/", "Shared/ContactManagement.Messages/"]
+
+# Publicar a aplicação
+WORKDIR "/src/Services/ContactManagement.Consulta.API"
 RUN dotnet publish -c Release -o /app/publish
 
 # Runtime

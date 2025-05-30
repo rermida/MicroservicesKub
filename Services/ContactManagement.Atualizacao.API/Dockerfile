@@ -2,12 +2,19 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
-COPY ["ContactManagement.Atualizacao.API/ContactManagement.Atualizacao.API.csproj", "ContactManagement.Atualizacao.API/"]
-COPY ["ContactManagement.Messages/ContactManagement.Messages.csproj", "ContactManagement.Messages/"]
-RUN dotnet restore "ContactManagement.Atualizacao.API/ContactManagement.Atualizacao.API.csproj"
+# Copiar os arquivos .csproj
+COPY ["Services/ContactManagement.Atualizacao.API/ContactManagement.Atualizacao.API.csproj", "Services/ContactManagement.Atualizacao.API/"]
+COPY ["Shared/ContactManagement.Messages/ContactManagement.Messages.csproj", "Shared/ContactManagement.Messages/"]
 
-COPY . .
-WORKDIR "/src/ContactManagement.Atualizacao.API"
+# Restaurar dependências
+RUN dotnet restore "Services/ContactManagement.Atualizacao.API/ContactManagement.Atualizacao.API.csproj"
+
+# Copia apenas os arquivos necessários para build
+COPY ["Services/ContactManagement.Atualizacao.API/", "Services/ContactManagement.Atualizacao.API/"]
+COPY ["Shared/ContactManagement.Messages/", "Shared/ContactManagement.Messages/"]
+
+# Publicar a aplicação
+WORKDIR "/src/Services/ContactManagement.Atualizacao.API"
 RUN dotnet publish -c Release -o /app/publish
 
 # Runtime

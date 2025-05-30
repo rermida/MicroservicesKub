@@ -11,6 +11,7 @@
     <PackageReference Include="MassTransit.RabbitMQ" Version="8.4.1" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.10" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.5" />
+    <PackageReference Include="prometheus-net.AspNetCore" Version="8.2.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
@@ -18,7 +19,6 @@
     <ProjectReference Include="..\..\Shared\ContactManagement.Domain\ContactManagement.Domain.csproj" />
     <ProjectReference Include="..\..\Shared\ContactManagement.Infrastructure\ContactManagement.Infrastructure.csproj" />
     <ProjectReference Include="..\..\Shared\ContactManagement.Messages\ContactManagement.Messages.csproj" />
-    <ProjectReference Include="..\ContactManagement.Persistencia.Worker\ContactManagement.Persistencia.Worker.csproj" />
   </ItemGroup>
 
 </Project>

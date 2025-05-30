@@ -290,3 +290,5 @@ C:\Users\renan\devFIAP\ContactManagement\Microservices\Tests\ContactManagement.A
 C:\Users\renan\devFIAP\ContactManagement\Microservices\Tests\ContactManagement.Atualizacao.Tests\obj\Debug\net8.0\ContactM.0226CD2D.Up2Date
 C:\Users\renan\devFIAP\ContactManagement\Microservices\Tests\ContactManagement.Atualizacao.Tests\obj\Debug\net8.0\ContactManagement.Atualizacao.Tests.genruntimeconfig.cache
 C:\Users\renan\devFIAP\ContactManagement\Microservices\Tests\ContactManagement.Atualizacao.Tests\obj\Debug\net8.0\ref\ContactManagement.Atualizacao.Tests.dll
+C:\Users\renan\devFIAP\ContactManagement\Microservices\Tests\ContactManagement.Atualizacao.Tests\bin\Debug\net8.0\Prometheus.NetStandard.dll
+C:\Users\renan\devFIAP\ContactManagement\Microservices\Tests\ContactManagement.Atualizacao.Tests\bin\Debug\net8.0\Prometheus.AspNetCore.dll

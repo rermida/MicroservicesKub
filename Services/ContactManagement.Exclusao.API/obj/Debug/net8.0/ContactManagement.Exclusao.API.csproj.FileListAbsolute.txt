@@ -82,3 +82,5 @@ C:\Users\renan\devFIAP\ContactManagement\Microservices\Services\ContactManagemen
 C:\Users\renan\devFIAP\ContactManagement\Microservices\Services\ContactManagement.Exclusao.API\obj\Debug\net8.0\ContactM.3DBE417A.Up2Date
 C:\Users\renan\devFIAP\ContactManagement\Microservices\Services\ContactManagement.Exclusao.API\obj\Debug\net8.0\ContactManagement.Exclusao.API.genruntimeconfig.cache
 C:\Users\renan\devFIAP\ContactManagement\Microservices\Services\ContactManagement.Exclusao.API\obj\Debug\net8.0\ref\ContactManagement.Exclusao.API.dll
+C:\Users\renan\devFIAP\ContactManagement\Microservices\Services\ContactManagement.Exclusao.API\bin\Debug\net8.0\Prometheus.NetStandard.dll
+C:\Users\renan\devFIAP\ContactManagement\Microservices\Services\ContactManagement.Exclusao.API\bin\Debug\net8.0\Prometheus.AspNetCore.dll

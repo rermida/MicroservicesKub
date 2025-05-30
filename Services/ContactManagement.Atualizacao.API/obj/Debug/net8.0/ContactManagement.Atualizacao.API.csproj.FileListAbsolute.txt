@@ -82,3 +82,5 @@ C:\Users\renan\devFIAP\ContactManagement\Microservices\Services\ContactManagemen
 C:\Users\renan\devFIAP\ContactManagement\Microservices\Services\ContactManagement.Atualizacao.API\obj\Debug\net8.0\ContactM.9861F3FD.Up2Date
 C:\Users\renan\devFIAP\ContactManagement\Microservices\Services\ContactManagement.Atualizacao.API\obj\Debug\net8.0\ContactManagement.Atualizacao.API.genruntimeconfig.cache
 C:\Users\renan\devFIAP\ContactManagement\Microservices\Services\ContactManagement.Atualizacao.API\obj\Debug\net8.0\ref\ContactManagement.Atualizacao.API.dll
+C:\Users\renan\devFIAP\ContactManagement\Microservices\Services\ContactManagement.Atualizacao.API\bin\Debug\net8.0\Prometheus.NetStandard.dll
+C:\Users\renan\devFIAP\ContactManagement\Microservices\Services\ContactManagement.Atualizacao.API\bin\Debug\net8.0\Prometheus.AspNetCore.dll
