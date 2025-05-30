@@ -32,3 +32,4 @@ jobs:
           dotnet test Tests/ContactManagement.Consulta.Tests/ContactManagement.Consulta.Tests.csproj --no-build --verbosity normal
           dotnet test Tests/ContactManagement.Exclusao.Tests/ContactManagement.Exclusao.Tests.csproj --no-build --verbosity normal
           dotnet test Tests/ContactManagement.Persistencia.Worker.Tests/ContactManagement.Persistencia.Worker.Tests.csproj --no-build --verbosity normal
+          dotnet test Tests/ContactManagement.IntegrationTests/ContactManagement.IntegrationTests.csproj --no-build --verbosity normal
