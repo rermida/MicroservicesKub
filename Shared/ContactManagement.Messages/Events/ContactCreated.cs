@@ -3,9 +3,7 @@ using System.Text.Json.Serialization;
 
 namespace ContactManagement.Messages.Events
 {
-    /// <summary>
-    /// Publicado quando um novo contato é criado.
-    /// </summary>
+    // Publicado quando um novo contato é criado.
     public record ContactCreated
     {
         public Guid Id { get; init; }
@@ -15,7 +13,7 @@ namespace ContactManagement.Messages.Events
         public string Ddd { get; init; } = string.Empty;
         public DateTimeOffset OccurredAt { get; init; }
 
-        // Este é o construtor que o System.Text.Json vai usar:
+        // Este é o construtor que o System.Text.Json vai usar
         [JsonConstructor]
         public ContactCreated(
             Guid id,
@@ -34,7 +32,7 @@ namespace ContactManagement.Messages.Events
             OccurredAt = occurredAt;
         }
 
-        // Construtor auxiliar para você publicar sem precisar passar a data
+        // Construtor auxiliar para publicar sem precisar passar a data
         public ContactCreated(
             Guid id,
             string name,

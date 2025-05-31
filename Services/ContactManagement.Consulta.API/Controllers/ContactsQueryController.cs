@@ -22,9 +22,7 @@ namespace ContactManagement.Consulta.API.Controllers
             _publish = publish;
         }
 
-        /// <summary>
-        /// Retorna todos os contatos.
-        /// </summary>
+        // Retorna todos os contatos.
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
@@ -36,9 +34,7 @@ namespace ContactManagement.Consulta.API.Controllers
             return Ok(dtos);
         }
 
-        /// <summary>
-        /// Retorna um contato pelo ID e publica evento ContactRead.
-        /// </summary>
+        // Retorna um contato pelo ID e publica evento ContactRead.
         [HttpGet("{id:guid}")]
         public async Task<IActionResult> GetById(Guid id)
         {

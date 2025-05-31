@@ -18,9 +18,7 @@ namespace ContactManagement.Cadastro.API.Controllers
             _publishEndpoint = publishEndpoint;
         }
 
-        /// <summary>
-        /// Cria um novo contato e publica evento ContactCreated no broker.
-        /// </summary>
+        // Cria um novo contato e publica evento ContactCreated no broker.
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] CreateContactRequest request)
         {
@@ -40,21 +38,6 @@ namespace ContactManagement.Cadastro.API.Controllers
             );
             await _publishEndpoint.Publish(@event);
 
-            // 3) Retornar 202 Accepted com link para GET futuro
-            return AcceptedAtAction(
-                nameof(GetById),
-                new { id },
-                new { id }
-            );
-        }
-
-        /// <summary>
-        /// Stub para futuro endpoint de consulta (pode chamar o microsserviço de Consulta).
-        /// </summary>
-        [HttpGet("{id:guid}")]
-        public IActionResult GetById(Guid id)
-        {
-            // ainda sem implementação de leitura; apenas retorna 202 para demonstração
             return Accepted();
         }
     }

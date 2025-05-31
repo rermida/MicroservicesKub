@@ -3,9 +3,7 @@ using System.Text.Json.Serialization;
 
 namespace ContactManagement.Messages.Events
 {
-    /// <summary>
-    /// Publicado quando um contato é removido.
-    /// </summary>
+    // Publicado quando um contato é removido.
     public record ContactDeleted
     {
         public Guid Id { get; init; }
@@ -21,9 +19,7 @@ namespace ContactManagement.Messages.Events
             OccurredAt = occurredAt;
         }
 
-        /// <summary>
-        /// Construtor auxiliar que já preenche o timestamp.
-        /// </summary>
+        // Construtor auxiliar que já preenche o timestamp.
         public ContactDeleted(Guid id)
             : this(id, DateTimeOffset.UtcNow)
         {

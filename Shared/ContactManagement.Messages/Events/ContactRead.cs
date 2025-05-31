@@ -3,9 +3,7 @@ using System.Text.Json.Serialization;
 
 namespace ContactManagement.Messages.Events
 {
-    /// <summary>
-    /// Publicado sempre que um contato é lido (consulta/visualização).
-    /// </summary>
+    // Publicado sempre que um contato é lido (consulta/visualização).
     public record ContactRead
     {
         public Guid Id { get; init; }
@@ -21,9 +19,7 @@ namespace ContactManagement.Messages.Events
             OccurredAt = occurredAt;
         }
 
-        /// <summary>
-        /// Construtor auxiliar que já preenche o timestamp.
-        /// </summary>
+        // Construtor auxiliar que já preenche o timestamp.
         public ContactRead(Guid id)
             : this(id, DateTimeOffset.UtcNow)
         {

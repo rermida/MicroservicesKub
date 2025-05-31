@@ -1,8 +1,6 @@
 namespace ContactManagement.Cadastro.API.Models
 {
-    /// <summary>
-    /// Payload esperado para criar um novo contato.
-    /// </summary>
+    // Payload esperado para criar um novo contato.
     public record CreateContactRequest(
         string Name,
         string Email,
