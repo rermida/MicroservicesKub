@@ -40,5 +40,12 @@ namespace ContactManagement.Cadastro.API.Controllers
 
             return Accepted();
         }
+
+        [HttpGet("{id}")]
+        public IActionResult GetById(Guid id)
+        {
+            // Você pode implementar de verdade, consultando no banco, ou só fazer um stub se ainda não tiver persistência aqui
+            return Ok(); // ou NotFound();
+        }
     }
 }

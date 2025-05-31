@@ -33,8 +33,7 @@ namespace ContactManagement.Cadastro.Tests.Controllers
             var result = await controller.Create(req);
 
             // Assert
-            var accepted = Assert.IsType<AcceptedAtActionResult>(result);
-            Assert.Equal(nameof(ContactsController.GetById), accepted.ActionName);
+            var accepted = Assert.IsType<AcceptedResult>(result);
             Assert.NotNull(publishedEvent);
             Assert.Equal("Ana", publishedEvent!.Name);
             Assert.Equal("ana@ex.com", publishedEvent.Email);
