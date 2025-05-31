@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ContactManagement.Persistencia.Worker.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5484ad8b36c9a18e438827984461c2baef6d44b3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f7a245c4c0ecb2a86d629d2e0a0f43cfdb12c38e")]
 [assembly: System.Reflection.AssemblyProductAttribute("ContactManagement.Persistencia.Worker.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ContactManagement.Persistencia.Worker.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
