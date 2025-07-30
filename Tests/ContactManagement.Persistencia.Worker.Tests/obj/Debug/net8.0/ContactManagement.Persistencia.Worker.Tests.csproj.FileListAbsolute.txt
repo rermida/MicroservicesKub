@@ -200,16 +200,16 @@ C:\Users\renan\devFIAP\Projeto\ContactManagement.Persistencia.Worker.Tests\obj\D
 C:\Users\renan\devFIAP\Projeto\ContactManagement.Persistencia.Worker.Tests\obj\Debug\net8.0\ContactManagement.Persistencia.Worker.Tests.genruntimeconfig.cache
 C:\Users\renan\devFIAP\Projeto\ContactManagement.Persistencia.Worker.Tests\obj\Debug\net8.0\ref\ContactManagement.Persistencia.Worker.Tests.dll
 C:\Users\renan\devFIAP\ContactManagement\Microservices\Tests\ContactManagement.Persistencia.Worker.Tests\bin\Debug\net8.0\CoverletSourceRootsMapping_ContactManagement.Persistencia.Worker.Tests
+C:\Users\renan\devFIAP\ContactManagement\Microservices\Tests\ContactManagement.Persistencia.Worker.Tests\bin\Debug\net8.0\testhost.dll
+C:\Users\renan\devFIAP\ContactManagement\Microservices\Tests\ContactManagement.Persistencia.Worker.Tests\bin\Debug\net8.0\ContactManagement.Persistencia.Worker.deps.json
+C:\Users\renan\devFIAP\ContactManagement\Microservices\Tests\ContactManagement.Persistencia.Worker.Tests\bin\Debug\net8.0\ContactManagement.Persistencia.Worker.runtimeconfig.json
 C:\Users\renan\devFIAP\ContactManagement\Microservices\Tests\ContactManagement.Persistencia.Worker.Tests\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\renan\devFIAP\ContactManagement\Microservices\Tests\ContactManagement.Persistencia.Worker.Tests\bin\Debug\net8.0\appsettings.json
+C:\Users\renan\devFIAP\ContactManagement\Microservices\Tests\ContactManagement.Persistencia.Worker.Tests\bin\Debug\net8.0\ContactManagement.Persistencia.Worker.exe
 C:\Users\renan\devFIAP\ContactManagement\Microservices\Tests\ContactManagement.Persistencia.Worker.Tests\bin\Debug\net8.0\testhost.exe
-C:\Users\renan\devFIAP\ContactManagement\Microservices\Tests\ContactManagement.Persistencia.Worker.Tests\bin\Debug\net8.0\testhost.dll
 C:\Users\renan\devFIAP\ContactManagement\Microservices\Tests\ContactManagement.Persistencia.Worker.Tests\bin\Debug\net8.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
 C:\Users\renan\devFIAP\ContactManagement\Microservices\Tests\ContactManagement.Persistencia.Worker.Tests\bin\Debug\net8.0\xunit.runner.reporters.netcoreapp10.dll
 C:\Users\renan\devFIAP\ContactManagement\Microservices\Tests\ContactManagement.Persistencia.Worker.Tests\bin\Debug\net8.0\xunit.runner.utility.netcoreapp10.dll
-C:\Users\renan\devFIAP\ContactManagement\Microservices\Tests\ContactManagement.Persistencia.Worker.Tests\bin\Debug\net8.0\ContactManagement.Persistencia.Worker.deps.json
-C:\Users\renan\devFIAP\ContactManagement\Microservices\Tests\ContactManagement.Persistencia.Worker.Tests\bin\Debug\net8.0\ContactManagement.Persistencia.Worker.runtimeconfig.json
-C:\Users\renan\devFIAP\ContactManagement\Microservices\Tests\ContactManagement.Persistencia.Worker.Tests\bin\Debug\net8.0\ContactManagement.Persistencia.Worker.exe
 C:\Users\renan\devFIAP\ContactManagement\Microservices\Tests\ContactManagement.Persistencia.Worker.Tests\bin\Debug\net8.0\ContactManagement.Persistencia.Worker.Tests.deps.json
 C:\Users\renan\devFIAP\ContactManagement\Microservices\Tests\ContactManagement.Persistencia.Worker.Tests\bin\Debug\net8.0\ContactManagement.Persistencia.Worker.Tests.runtimeconfig.json
 C:\Users\renan\devFIAP\ContactManagement\Microservices\Tests\ContactManagement.Persistencia.Worker.Tests\bin\Debug\net8.0\ContactManagement.Persistencia.Worker.Tests.dll
@@ -271,6 +271,8 @@ C:\Users\renan\devFIAP\ContactManagement\Microservices\Tests\ContactManagement.P
 C:\Users\renan\devFIAP\ContactManagement\Microservices\Tests\ContactManagement.Persistencia.Worker.Tests\bin\Debug\net8.0\Moq.dll
 C:\Users\renan\devFIAP\ContactManagement\Microservices\Tests\ContactManagement.Persistencia.Worker.Tests\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\renan\devFIAP\ContactManagement\Microservices\Tests\ContactManagement.Persistencia.Worker.Tests\bin\Debug\net8.0\NuGet.Frameworks.dll
+C:\Users\renan\devFIAP\ContactManagement\Microservices\Tests\ContactManagement.Persistencia.Worker.Tests\bin\Debug\net8.0\Prometheus.NetStandard.dll
+C:\Users\renan\devFIAP\ContactManagement\Microservices\Tests\ContactManagement.Persistencia.Worker.Tests\bin\Debug\net8.0\Prometheus.AspNetCore.dll
 C:\Users\renan\devFIAP\ContactManagement\Microservices\Tests\ContactManagement.Persistencia.Worker.Tests\bin\Debug\net8.0\RabbitMQ.Client.dll
 C:\Users\renan\devFIAP\ContactManagement\Microservices\Tests\ContactManagement.Persistencia.Worker.Tests\bin\Debug\net8.0\System.ClientModel.dll
 C:\Users\renan\devFIAP\ContactManagement\Microservices\Tests\ContactManagement.Persistencia.Worker.Tests\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
@@ -390,5 +392,3 @@ C:\Users\renan\devFIAP\ContactManagement\Microservices\Tests\ContactManagement.P
 C:\Users\renan\devFIAP\ContactManagement\Microservices\Tests\ContactManagement.Persistencia.Worker.Tests\obj\Debug\net8.0\ContactManagement.Persistencia.Worker.Tests.pdb
 C:\Users\renan\devFIAP\ContactManagement\Microservices\Tests\ContactManagement.Persistencia.Worker.Tests\obj\Debug\net8.0\ContactManagement.Persistencia.Worker.Tests.genruntimeconfig.cache
 C:\Users\renan\devFIAP\ContactManagement\Microservices\Tests\ContactManagement.Persistencia.Worker.Tests\obj\Debug\net8.0\ref\ContactManagement.Persistencia.Worker.Tests.dll
-C:\Users\renan\devFIAP\ContactManagement\Microservices\Tests\ContactManagement.Persistencia.Worker.Tests\bin\Debug\net8.0\Prometheus.NetStandard.dll
-C:\Users\renan\devFIAP\ContactManagement\Microservices\Tests\ContactManagement.Persistencia.Worker.Tests\bin\Debug\net8.0\Prometheus.AspNetCore.dll

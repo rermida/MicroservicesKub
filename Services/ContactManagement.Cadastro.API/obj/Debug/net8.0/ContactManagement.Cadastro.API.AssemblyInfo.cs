@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ContactManagement.Cadastro.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bd9b638a2d478652817621867b7d19d99dc082f0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6e5046d7c374b90ded31f5b103879edd96a122cb")]
 [assembly: System.Reflection.AssemblyProductAttribute("ContactManagement.Cadastro.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ContactManagement.Cadastro.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
