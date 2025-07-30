@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ContactManagement.Persistencia.Worker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+96da84880566ee2898d39f4516f19cec6647f19c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b847d22306a33cf479d69f5f85eeb4818345e0f")]
 [assembly: System.Reflection.AssemblyProductAttribute("ContactManagement.Persistencia.Worker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ContactManagement.Persistencia.Worker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
