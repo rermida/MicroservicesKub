@@ -21,11 +21,9 @@ jobs:
 
       - name: Restaurar dependências
         run: dotnet restore
-        working-directory: Microservices
 
       - name: Compilar solução
         run: dotnet build --no-restore --configuration Release
-        working-directory: Microservices
 
       - name: Rodar testes unitários e de integração
         run: |
@@ -34,4 +32,3 @@ jobs:
           dotnet test Tests/ContactManagement.Consulta.Tests/ContactManagement.Consulta.Tests.csproj --no-build --verbosity normal
           dotnet test Tests/ContactManagement.Exclusao.Tests/ContactManagement.Exclusao.Tests.csproj --no-build --verbosity normal
           dotnet test Tests/ContactManagement.Persistencia.Worker.Tests/ContactManagement.Persistencia.Worker.Tests.csproj --no-build --verbosity normal
-        working-directory: Microservices
