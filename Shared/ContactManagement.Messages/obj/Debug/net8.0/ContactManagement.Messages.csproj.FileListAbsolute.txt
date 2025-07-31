@@ -1,0 +1,16 @@
+C:\Users\renan\devFIAP\ContactManagement\Microservices\Shared\ContactManagement.Messages\bin\Debug\net8.0\ContactManagement.Messages.deps.json
+C:\Users\renan\devFIAP\ContactManagement\Microservices\Shared\ContactManagement.Messages\bin\Debug\net8.0\ContactManagement.Messages.dll
+C:\Users\renan\devFIAP\ContactManagement\Microservices\Shared\ContactManagement.Messages\bin\Debug\net8.0\ContactManagement.Messages.pdb
+C:\Users\renan\devFIAP\ContactManagement\Microservices\Shared\ContactManagement.Messages\bin\Debug\net8.0\ContactManagement.Domain.dll
+C:\Users\renan\devFIAP\ContactManagement\Microservices\Shared\ContactManagement.Messages\bin\Debug\net8.0\ContactManagement.Domain.pdb
+C:\Users\renan\devFIAP\ContactManagement\Microservices\Shared\ContactManagement.Messages\obj\Debug\net8.0\ContactManagement.Messages.csproj.AssemblyReference.cache
+C:\Users\renan\devFIAP\ContactManagement\Microservices\Shared\ContactManagement.Messages\obj\Debug\net8.0\ContactManagement.Messages.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\renan\devFIAP\ContactManagement\Microservices\Shared\ContactManagement.Messages\obj\Debug\net8.0\ContactManagement.Messages.AssemblyInfoInputs.cache
+C:\Users\renan\devFIAP\ContactManagement\Microservices\Shared\ContactManagement.Messages\obj\Debug\net8.0\ContactManagement.Messages.AssemblyInfo.cs
+C:\Users\renan\devFIAP\ContactManagement\Microservices\Shared\ContactManagement.Messages\obj\Debug\net8.0\ContactManagement.Messages.csproj.CoreCompileInputs.cache
+C:\Users\renan\devFIAP\ContactManagement\Microservices\Shared\ContactManagement.Messages\obj\Debug\net8.0\ContactManagement.Messages.sourcelink.json
+C:\Users\renan\devFIAP\ContactManagement\Microservices\Shared\ContactManagement.Messages\obj\Debug\net8.0\ContactM.3194CEBC.Up2Date
+C:\Users\renan\devFIAP\ContactManagement\Microservices\Shared\ContactManagement.Messages\obj\Debug\net8.0\ContactManagement.Messages.dll
+C:\Users\renan\devFIAP\ContactManagement\Microservices\Shared\ContactManagement.Messages\obj\Debug\net8.0\refint\ContactManagement.Messages.dll
+C:\Users\renan\devFIAP\ContactManagement\Microservices\Shared\ContactManagement.Messages\obj\Debug\net8.0\ContactManagement.Messages.pdb
+C:\Users\renan\devFIAP\ContactManagement\Microservices\Shared\ContactManagement.Messages\obj\Debug\net8.0\ref\ContactManagement.Messages.dll

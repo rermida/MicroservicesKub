@@ -38,13 +38,12 @@ namespace ContactManagement.Cadastro.API.Controllers
             );
             await _publishEndpoint.Publish(@event);
 
-            return Accepted();
+            return CreatedAtAction(nameof(GetById), new { id = id }, new { id = id });
         }
 
         [HttpGet("{id}")]
         public IActionResult GetById(Guid id)
         {
-            // Você pode implementar de verdade, consultando no banco, ou só fazer um stub se ainda não tiver persistência aqui
             return Ok(); // ou NotFound();
         }
     }
