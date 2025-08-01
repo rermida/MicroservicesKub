@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-configmap
+data:
+  # --- Configurações do RabbitMQ ---
+  RabbitMQ__Host: "rabbitmq-service"
+  RabbitMQ__ConnectionString: "rabbitmq://rabbitmq-service"
+
+  # --- Configurações do SQL Server ---
+  SqlServer__ConnectionString: "Server=sqlserver-service,1433;Database=ContactDb;User Id=sa;TrustServerCertificate=True;"

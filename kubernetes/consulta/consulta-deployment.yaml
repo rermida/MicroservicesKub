@@ -1,0 +1,45 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: consulta-deployment
+  labels:
+    app: consulta
+  annotations:
+    owner: "EquipeBackend"
+    description: "Microsservico que serve dados de contatos lendo diretamente do banco de dados."
+    last-updated: "2025-07-31T21:52:00-03:00"
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: consulta
+  template:
+    metadata:
+      labels:
+        app: consulta
+    spec:
+      containers:
+      - name: consulta-container
+        image: microservices-consulta:latest
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 80
+        env:
+        # Pega a connection string SEM a senha do ConfigMap
+        - name: ConnectionStrings__SqlServer
+          valueFrom:
+            configMapKeyRef:
+              name: app-configmap
+              key: SqlServer__ConnectionString
+        # Pega a senha do Secret
+        - name: ConnectionStrings__SqlServer__Password
+          valueFrom:
+            secretKeyRef:
+              name: app-secrets
+              key: SqlServer__Password
+        # Pega a configuração do RabbitMQ do ConfigMap
+        - name: ConnectionStrings__RabbitMQ
+          valueFrom:
+            configMapKeyRef:
+              name: app-configmap
+              key: RabbitMQ__ConnectionString

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vISJHmwE1JU=",
+  "dgSpecHash": "JOx4P6Hg11I=",
   "success": true,
-  "projectFilePath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Services\\ContactManagement.Atualizacao.API\\ContactManagement.Atualizacao.API.csproj",
+  "projectFilePath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Services\\ContactManagement.Atualizacao.API\\ContactManagement.Atualizacao.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\renan\\.nuget\\packages\\masstransit\\8.4.1\\masstransit.8.4.1.nupkg.sha512",
     "C:\\Users\\renan\\.nuget\\packages\\masstransit.abstractions\\8.4.1\\masstransit.abstractions.8.4.1.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Tests\\ContactManagement.Consulta.Tests\\ContactManagement.Consulta.Tests.csproj": {}
+    "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Tests\\ContactManagement.Consulta.Tests\\ContactManagement.Consulta.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Services\\ContactManagement.Atualizacao.API\\ContactManagement.Atualizacao.API.csproj": {
+    "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Services\\ContactManagement.Atualizacao.API\\ContactManagement.Atualizacao.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Services\\ContactManagement.Atualizacao.API\\ContactManagement.Atualizacao.API.csproj",
+        "projectUniqueName": "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Services\\ContactManagement.Atualizacao.API\\ContactManagement.Atualizacao.API.csproj",
         "projectName": "ContactManagement.Atualizacao.API",
-        "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Services\\ContactManagement.Atualizacao.API\\ContactManagement.Atualizacao.API.csproj",
+        "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Services\\ContactManagement.Atualizacao.API\\ContactManagement.Atualizacao.API.csproj",
         "packagesPath": "C:\\Users\\renan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Services\\ContactManagement.Atualizacao.API\\obj\\",
+        "outputPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Services\\ContactManagement.Atualizacao.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\renan\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,11 +26,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Shared\\ContactManagement.Domain\\ContactManagement.Domain.csproj": {
-                "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Shared\\ContactManagement.Domain\\ContactManagement.Domain.csproj"
+              "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Shared\\ContactManagement.Domain\\ContactManagement.Domain.csproj": {
+                "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Shared\\ContactManagement.Domain\\ContactManagement.Domain.csproj"
               },
-              "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Shared\\ContactManagement.Messages\\ContactManagement.Messages.csproj": {
-                "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Shared\\ContactManagement.Messages\\ContactManagement.Messages.csproj"
+              "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Shared\\ContactManagement.Messages\\ContactManagement.Messages.csproj": {
+                "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Shared\\ContactManagement.Messages\\ContactManagement.Messages.csproj"
               }
             }
           }
@@ -94,14 +94,14 @@
         }
       }
     },
-    "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Services\\ContactManagement.Cadastro.API\\ContactManagement.Cadastro.API.csproj": {
+    "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Services\\ContactManagement.Cadastro.API\\ContactManagement.Cadastro.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Services\\ContactManagement.Cadastro.API\\ContactManagement.Cadastro.API.csproj",
+        "projectUniqueName": "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Services\\ContactManagement.Cadastro.API\\ContactManagement.Cadastro.API.csproj",
         "projectName": "ContactManagement.Cadastro.API",
-        "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Services\\ContactManagement.Cadastro.API\\ContactManagement.Cadastro.API.csproj",
+        "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Services\\ContactManagement.Cadastro.API\\ContactManagement.Cadastro.API.csproj",
         "packagesPath": "C:\\Users\\renan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Services\\ContactManagement.Cadastro.API\\obj\\",
+        "outputPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Services\\ContactManagement.Cadastro.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\renan\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -116,11 +116,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Shared\\ContactManagement.Domain\\ContactManagement.Domain.csproj": {
-                "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Shared\\ContactManagement.Domain\\ContactManagement.Domain.csproj"
+              "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Shared\\ContactManagement.Domain\\ContactManagement.Domain.csproj": {
+                "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Shared\\ContactManagement.Domain\\ContactManagement.Domain.csproj"
               },
-              "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Shared\\ContactManagement.Messages\\ContactManagement.Messages.csproj": {
-                "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Shared\\ContactManagement.Messages\\ContactManagement.Messages.csproj"
+              "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Shared\\ContactManagement.Messages\\ContactManagement.Messages.csproj": {
+                "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Shared\\ContactManagement.Messages\\ContactManagement.Messages.csproj"
               }
             }
           }
@@ -184,14 +184,14 @@
         }
       }
     },
-    "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Services\\ContactManagement.Consulta.API\\ContactManagement.Consulta.API.csproj": {
+    "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Services\\ContactManagement.Consulta.API\\ContactManagement.Consulta.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Services\\ContactManagement.Consulta.API\\ContactManagement.Consulta.API.csproj",
+        "projectUniqueName": "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Services\\ContactManagement.Consulta.API\\ContactManagement.Consulta.API.csproj",
         "projectName": "ContactManagement.Consulta.API",
-        "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Services\\ContactManagement.Consulta.API\\ContactManagement.Consulta.API.csproj",
+        "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Services\\ContactManagement.Consulta.API\\ContactManagement.Consulta.API.csproj",
         "packagesPath": "C:\\Users\\renan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Services\\ContactManagement.Consulta.API\\obj\\",
+        "outputPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Services\\ContactManagement.Consulta.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\renan\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -206,14 +206,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Shared\\ContactManagement.Domain\\ContactManagement.Domain.csproj": {
-                "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Shared\\ContactManagement.Domain\\ContactManagement.Domain.csproj"
+              "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Shared\\ContactManagement.Domain\\ContactManagement.Domain.csproj": {
+                "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Shared\\ContactManagement.Domain\\ContactManagement.Domain.csproj"
               },
-              "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Shared\\ContactManagement.Infrastructure\\ContactManagement.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Shared\\ContactManagement.Infrastructure\\ContactManagement.Infrastructure.csproj"
+              "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Shared\\ContactManagement.Infrastructure\\ContactManagement.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Shared\\ContactManagement.Infrastructure\\ContactManagement.Infrastructure.csproj"
               },
-              "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Shared\\ContactManagement.Messages\\ContactManagement.Messages.csproj": {
-                "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Shared\\ContactManagement.Messages\\ContactManagement.Messages.csproj"
+              "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Shared\\ContactManagement.Messages\\ContactManagement.Messages.csproj": {
+                "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Shared\\ContactManagement.Messages\\ContactManagement.Messages.csproj"
               }
             }
           }
@@ -281,14 +281,14 @@
         }
       }
     },
-    "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Services\\ContactManagement.Exclusao.API\\ContactManagement.Exclusao.API.csproj": {
+    "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Services\\ContactManagement.Exclusao.API\\ContactManagement.Exclusao.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Services\\ContactManagement.Exclusao.API\\ContactManagement.Exclusao.API.csproj",
+        "projectUniqueName": "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Services\\ContactManagement.Exclusao.API\\ContactManagement.Exclusao.API.csproj",
         "projectName": "ContactManagement.Exclusao.API",
-        "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Services\\ContactManagement.Exclusao.API\\ContactManagement.Exclusao.API.csproj",
+        "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Services\\ContactManagement.Exclusao.API\\ContactManagement.Exclusao.API.csproj",
         "packagesPath": "C:\\Users\\renan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Services\\ContactManagement.Exclusao.API\\obj\\",
+        "outputPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Services\\ContactManagement.Exclusao.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\renan\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -303,11 +303,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Shared\\ContactManagement.Domain\\ContactManagement.Domain.csproj": {
-                "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Shared\\ContactManagement.Domain\\ContactManagement.Domain.csproj"
+              "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Shared\\ContactManagement.Domain\\ContactManagement.Domain.csproj": {
+                "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Shared\\ContactManagement.Domain\\ContactManagement.Domain.csproj"
               },
-              "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Shared\\ContactManagement.Messages\\ContactManagement.Messages.csproj": {
-                "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Shared\\ContactManagement.Messages\\ContactManagement.Messages.csproj"
+              "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Shared\\ContactManagement.Messages\\ContactManagement.Messages.csproj": {
+                "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Shared\\ContactManagement.Messages\\ContactManagement.Messages.csproj"
               }
             }
           }
@@ -371,14 +371,14 @@
         }
       }
     },
-    "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Shared\\ContactManagement.Domain\\ContactManagement.Domain.csproj": {
+    "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Shared\\ContactManagement.Domain\\ContactManagement.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Shared\\ContactManagement.Domain\\ContactManagement.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Shared\\ContactManagement.Domain\\ContactManagement.Domain.csproj",
         "projectName": "ContactManagement.Domain",
-        "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Shared\\ContactManagement.Domain\\ContactManagement.Domain.csproj",
+        "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Shared\\ContactManagement.Domain\\ContactManagement.Domain.csproj",
         "packagesPath": "C:\\Users\\renan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Shared\\ContactManagement.Domain\\obj\\",
+        "outputPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Shared\\ContactManagement.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\renan\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -429,14 +429,14 @@
         }
       }
     },
-    "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Shared\\ContactManagement.Infrastructure\\ContactManagement.Infrastructure.csproj": {
+    "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Shared\\ContactManagement.Infrastructure\\ContactManagement.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Shared\\ContactManagement.Infrastructure\\ContactManagement.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Shared\\ContactManagement.Infrastructure\\ContactManagement.Infrastructure.csproj",
         "projectName": "ContactManagement.Infrastructure",
-        "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Shared\\ContactManagement.Infrastructure\\ContactManagement.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Shared\\ContactManagement.Infrastructure\\ContactManagement.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\renan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Shared\\ContactManagement.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Shared\\ContactManagement.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\renan\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -451,8 +451,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Shared\\ContactManagement.Domain\\ContactManagement.Domain.csproj": {
-                "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Shared\\ContactManagement.Domain\\ContactManagement.Domain.csproj"
+              "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Shared\\ContactManagement.Domain\\ContactManagement.Domain.csproj": {
+                "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Shared\\ContactManagement.Domain\\ContactManagement.Domain.csproj"
               }
             }
           }
@@ -495,6 +495,22 @@
             "Microsoft.Extensions.Caching.Memory": {
               "target": "Package",
               "version": "[9.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[9.0.7, )"
             }
           },
           "imports": [
@@ -517,14 +533,14 @@
         }
       }
     },
-    "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Shared\\ContactManagement.Messages\\ContactManagement.Messages.csproj": {
+    "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Shared\\ContactManagement.Messages\\ContactManagement.Messages.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Shared\\ContactManagement.Messages\\ContactManagement.Messages.csproj",
+        "projectUniqueName": "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Shared\\ContactManagement.Messages\\ContactManagement.Messages.csproj",
         "projectName": "ContactManagement.Messages",
-        "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Shared\\ContactManagement.Messages\\ContactManagement.Messages.csproj",
+        "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Shared\\ContactManagement.Messages\\ContactManagement.Messages.csproj",
         "packagesPath": "C:\\Users\\renan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Shared\\ContactManagement.Messages\\obj\\",
+        "outputPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Shared\\ContactManagement.Messages\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\renan\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -539,8 +555,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Shared\\ContactManagement.Domain\\ContactManagement.Domain.csproj": {
-                "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Shared\\ContactManagement.Domain\\ContactManagement.Domain.csproj"
+              "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Shared\\ContactManagement.Domain\\ContactManagement.Domain.csproj": {
+                "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Shared\\ContactManagement.Domain\\ContactManagement.Domain.csproj"
               }
             }
           }
@@ -579,14 +595,14 @@
         }
       }
     },
-    "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Tests\\ContactManagement.Consulta.Tests\\ContactManagement.Consulta.Tests.csproj": {
+    "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Tests\\ContactManagement.Consulta.Tests\\ContactManagement.Consulta.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Tests\\ContactManagement.Consulta.Tests\\ContactManagement.Consulta.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Tests\\ContactManagement.Consulta.Tests\\ContactManagement.Consulta.Tests.csproj",
         "projectName": "ContactManagement.Consulta.Tests",
-        "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Tests\\ContactManagement.Consulta.Tests\\ContactManagement.Consulta.Tests.csproj",
+        "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Tests\\ContactManagement.Consulta.Tests\\ContactManagement.Consulta.Tests.csproj",
         "packagesPath": "C:\\Users\\renan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Tests\\ContactManagement.Consulta.Tests\\obj\\",
+        "outputPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Tests\\ContactManagement.Consulta.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\renan\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -601,17 +617,17 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Services\\ContactManagement.Atualizacao.API\\ContactManagement.Atualizacao.API.csproj": {
-                "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Services\\ContactManagement.Atualizacao.API\\ContactManagement.Atualizacao.API.csproj"
+              "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Services\\ContactManagement.Atualizacao.API\\ContactManagement.Atualizacao.API.csproj": {
+                "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Services\\ContactManagement.Atualizacao.API\\ContactManagement.Atualizacao.API.csproj"
               },
-              "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Services\\ContactManagement.Cadastro.API\\ContactManagement.Cadastro.API.csproj": {
-                "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Services\\ContactManagement.Cadastro.API\\ContactManagement.Cadastro.API.csproj"
+              "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Services\\ContactManagement.Cadastro.API\\ContactManagement.Cadastro.API.csproj": {
+                "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Services\\ContactManagement.Cadastro.API\\ContactManagement.Cadastro.API.csproj"
               },
-              "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Services\\ContactManagement.Consulta.API\\ContactManagement.Consulta.API.csproj": {
-                "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Services\\ContactManagement.Consulta.API\\ContactManagement.Consulta.API.csproj"
+              "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Services\\ContactManagement.Consulta.API\\ContactManagement.Consulta.API.csproj": {
+                "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Services\\ContactManagement.Consulta.API\\ContactManagement.Consulta.API.csproj"
               },
-              "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Services\\ContactManagement.Exclusao.API\\ContactManagement.Exclusao.API.csproj": {
-                "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Services\\ContactManagement.Exclusao.API\\ContactManagement.Exclusao.API.csproj"
+              "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Services\\ContactManagement.Exclusao.API\\ContactManagement.Exclusao.API.csproj": {
+                "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Services\\ContactManagement.Exclusao.API\\ContactManagement.Exclusao.API.csproj"
               }
             }
           }

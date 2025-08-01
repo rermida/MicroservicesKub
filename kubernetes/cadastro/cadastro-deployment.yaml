@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cadastro-deployment
+  labels:
+    app: cadastro
+  annotations:
+    owner: "EquipeBackend"
+    description: "Microsservico que recebe requisicoes de criacao de contatos e publica eventos na fila."
+    last-updated: "2025-07-31T21:52:00-03:00"
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: cadastro
+  template:
+    metadata:
+      labels:
+        app: cadastro
+    spec:
+      containers:
+      - name: cadastro-container
+        image: microservices-cadastro:latest
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 80
+        env:
+        - name: ConnectionStrings__RabbitMQ
+          valueFrom:
+            configMapKeyRef:
+              name: app-configmap
+              key: RabbitMQ__Host

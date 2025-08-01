@@ -1,0 +1,45 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: persistencia-deployment
+  labels:
+    app: persistencia
+  annotations:
+    owner: "EquipeBackend"
+    description: "Worker de background que consome eventos das filas e persiste as alteracoes no banco de dados."
+    last-updated: "2025-07-31T21:52:00-03:00"
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: persistencia
+  template:
+    metadata:
+      labels:
+        app: persistencia
+    spec:
+      containers:
+      - name: persistencia-container
+        image: microservices-persistencia:latest
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 8081
+        env:
+        # Pega a connection string SEM a senha do ConfigMap
+        - name: ConnectionStrings__SqlServer
+          valueFrom:
+            configMapKeyRef:
+              name: app-configmap
+              key: SqlServer__ConnectionString
+        # Pega a senha do Secret
+        - name: ConnectionStrings__SqlServer__Password
+          valueFrom:
+            secretKeyRef:
+              name: app-secrets
+              key: SqlServer__Password
+        # Pega a configuração do RabbitMQ do ConfigMap
+        - name: ConnectionStrings__RabbitMQ
+          valueFrom:
+            configMapKeyRef:
+              name: app-configmap
+              key: RabbitMQ__ConnectionString

@@ -10270,11 +10270,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Tests\\ContactManagement.Atualizacao.Tests\\ContactManagement.Atualizacao.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Tests\\ContactManagement.Atualizacao.Tests\\ContactManagement.Atualizacao.Tests.csproj",
       "projectName": "ContactManagement.Atualizacao.Tests",
-      "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Tests\\ContactManagement.Atualizacao.Tests\\ContactManagement.Atualizacao.Tests.csproj",
+      "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Tests\\ContactManagement.Atualizacao.Tests\\ContactManagement.Atualizacao.Tests.csproj",
       "packagesPath": "C:\\Users\\renan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Tests\\ContactManagement.Atualizacao.Tests\\obj\\",
+      "outputPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Tests\\ContactManagement.Atualizacao.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\renan\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -10289,8 +10289,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Services\\ContactManagement.Atualizacao.API\\ContactManagement.Atualizacao.API.csproj": {
-              "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Services\\ContactManagement.Atualizacao.API\\ContactManagement.Atualizacao.API.csproj"
+            "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Services\\ContactManagement.Atualizacao.API\\ContactManagement.Atualizacao.API.csproj": {
+              "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Services\\ContactManagement.Atualizacao.API\\ContactManagement.Atualizacao.API.csproj"
             }
           }
         }

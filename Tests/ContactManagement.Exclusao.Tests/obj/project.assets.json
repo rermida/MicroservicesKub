@@ -10270,11 +10270,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Tests\\ContactManagement.Exclusao.Tests\\ContactManagement.Exclusao.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Tests\\ContactManagement.Exclusao.Tests\\ContactManagement.Exclusao.Tests.csproj",
       "projectName": "ContactManagement.Exclusao.Tests",
-      "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Tests\\ContactManagement.Exclusao.Tests\\ContactManagement.Exclusao.Tests.csproj",
+      "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Tests\\ContactManagement.Exclusao.Tests\\ContactManagement.Exclusao.Tests.csproj",
       "packagesPath": "C:\\Users\\renan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Tests\\ContactManagement.Exclusao.Tests\\obj\\",
+      "outputPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Tests\\ContactManagement.Exclusao.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\renan\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -10289,8 +10289,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Services\\ContactManagement.Exclusao.API\\ContactManagement.Exclusao.API.csproj": {
-              "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\Microservices\\Services\\ContactManagement.Exclusao.API\\ContactManagement.Exclusao.API.csproj"
+            "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Services\\ContactManagement.Exclusao.API\\ContactManagement.Exclusao.API.csproj": {
+              "projectPath": "C:\\Users\\renan\\devFIAP\\ContactManagement\\MicroservicesKub\\Services\\ContactManagement.Exclusao.API\\ContactManagement.Exclusao.API.csproj"
             }
           }
         }
