@@ -9,3 +9,4 @@ data:
 
   # --- Configurações do SQL Server ---
   SqlServer__ConnectionString: "Server=sqlserver-service,1433;Database=ContactDb;User Id=sa;TrustServerCertificate=True;"
+  
