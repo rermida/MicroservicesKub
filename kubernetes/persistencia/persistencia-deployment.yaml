@@ -25,19 +25,11 @@ spec:
         ports:
         - containerPort: 8081
         env:
-        # Pega a connection string SEM a senha do ConfigMap
         - name: ConnectionStrings__SqlServer
-          valueFrom:
-            configMapKeyRef:
-              name: app-configmap
-              key: SqlServer__ConnectionString
-        # Pega a senha do Secret
-        - name: ConnectionStrings__SqlServer__Password
           valueFrom:
             secretKeyRef:
               name: app-secrets
-              key: SqlServer__Password
-        # Pega a configuração do RabbitMQ do ConfigMap
+              key: SqlServer__ConnectionString
         - name: ConnectionStrings__RabbitMQ
           valueFrom:
             configMapKeyRef:

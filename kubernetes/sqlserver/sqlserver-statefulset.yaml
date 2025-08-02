@@ -25,7 +25,7 @@ spec:
           valueFrom:
             secretKeyRef:
               name: app-secrets
-              key: SqlServer__Password
+              key: SA_PASSWORD
         volumeMounts:
         - name: sqlserver-storage
           mountPath: /var/opt/mssql
